@@ -10,6 +10,15 @@ const ReadingMultipleComponent = ({ data }) => {
 
     const [selected, setSelected] = useState(saved?.userAnswer || null);
     const [isSubmitted, setIsSubmitted] = useState(!!saved);
+    const [shuffledOptions, setShuffledOptions] = useState([]);
+
+    useEffect(() => {
+        // Only shuffle once when mounting the current question data
+        if (data && data.options) {
+            const shuffled = [...data.options].sort(() => Math.random() - 0.5);
+            setShuffledOptions(shuffled);
+        }
+    }, [data.id]);
 
     useEffect(() => {
         const stored = useStore.getState().answers[data.id];
@@ -47,7 +56,7 @@ const ReadingMultipleComponent = ({ data }) => {
                 <h2 className="text-xl font-bold text-slate-800 mb-6">{data.question}</h2>
 
                 <div className="space-y-3 mb-6">
-                    {data.options.map((option, index) => {
+                    {shuffledOptions.map((option, index) => {
                         const isSelected = selected === option;
                         const showSuccess = isSubmitted && option === data.correctAnswer;
                         const showError = isSubmitted && isSelected && !isCorrect;

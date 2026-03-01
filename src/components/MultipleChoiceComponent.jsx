@@ -10,6 +10,15 @@ const MultipleChoiceComponent = ({ data }) => {
     const saved = answers[data.id];
     const [selected, setSelected] = useState(saved?.userAnswer || null);
     const [isSubmitted, setIsSubmitted] = useState(!!saved);
+    const [shuffledOptions, setShuffledOptions] = useState([]);
+
+    useEffect(() => {
+        // Only shuffle once when mounting the current question data to prevent re-shuffling on re-renders
+        if (data && data.options) {
+            const shuffled = [...data.options].sort(() => Math.random() - 0.5);
+            setShuffledOptions(shuffled);
+        }
+    }, [data.id]); // Re-shuffle when data.id changes (i.e., new question is loaded)
 
     useEffect(() => {
         const stored = useStore.getState().answers[data.id];
@@ -39,7 +48,7 @@ const MultipleChoiceComponent = ({ data }) => {
             </div>
 
             <div className="space-y-3 mb-8">
-                {data.options.map((option, index) => {
+                {shuffledOptions.map((option, index) => {
                     const isSelected = selected === option;
                     const showSuccess = isSubmitted && option === data.correctAnswer;
                     const showError = isSubmitted && isSelected && !isCorrect;

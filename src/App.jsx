@@ -66,8 +66,8 @@ function App() {
           <div className="bg-white p-6 rounded-3xl inline-block mb-6 shadow-sm border-2 border-slate-100">
             <GraduationCap className="w-16 h-16 text-blue-600" />
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-800 mb-6 drop-shadow-sm">English 7 Practice Tests</h1>
-          <p className="text-xl md:text-2xl text-slate-600 font-medium max-w-2xl mx-auto">Select a test below to start practicing your English skills.</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-800 mb-6 drop-shadow-sm">Bài Kiểm Tra Tiếng Anh 7</h1>
+          <p className="text-xl md:text-2xl text-slate-600 font-medium max-w-2xl mx-auto">Vui lòng chọn một bài kiểm tra bên dưới để bắt đầu ôn tập.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl animate-in slide-in-from-bottom-12 fade-in duration-1000 delay-300 fill-mode-both">
@@ -78,8 +78,8 @@ function App() {
             <div className="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform">
               <BookOpen className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-2">Unit 6 Test</h3>
-            <p className="text-slate-500 font-medium text-center sm:text-left">Education</p>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Bài Kiểm Tra Unit 6</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Giáo Dục</p>
           </button>
 
           <button
@@ -89,8 +89,8 @@ function App() {
             <div className="bg-amber-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:-rotate-3 transition-transform">
               <BookOpen className="w-8 h-8 text-amber-600" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-2">Unit 7 Test</h3>
-            <p className="text-slate-500 font-medium text-center sm:text-left">Transportation</p>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Bài Kiểm Tra Unit 7</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Giao Thông</p>
           </button>
 
           <button
@@ -100,8 +100,8 @@ function App() {
             <div className="bg-green-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform">
               <Trophy className="w-8 h-8 text-green-600" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-2">Midterm Test</h3>
-            <p className="text-slate-500 font-medium text-center sm:text-left">Semester 2 Review</p>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Bài Giữa Kỳ</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Ôn Tập Học Kỳ 2</p>
           </button>
         </div>
       </div>
