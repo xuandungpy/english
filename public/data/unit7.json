@@ -14,7 +14,7 @@
                 "s<u>u</u>pport"
             ],
             "correctAnswer": "s<u>u</u>pport",
-            "explanation": "The 'u' in support is pronounced differently than in subway, luggage, and public."
+            "explanation": "Âm 'u' trong từ 'support' được phát âm là /ə/, khác với âm /ʌ/ trong 'subway', 'luggage' và 'public'."
         },
         {
             "id": "q2",
@@ -28,7 +28,7 @@
                 "passport<u>s</u>"
             ],
             "correctAnswer": "custom<u>s</u>",
-            "explanation": "The 's' in customs is pronounced as /z/."
+            "explanation": "Âm 's' trong từ 'customs' được phát âm là /z/."
         },
         {
             "id": "q3",
@@ -42,7 +42,7 @@
                 "local"
             ],
             "correctAnswer": "around",
-            "explanation": "Around is stressed on the second syllable. The others are stressed on the first."
+            "explanation": "Từ 'around' có trọng âm rơi vào âm tiết thứ hai. Các từ còn lại có trọng âm ở âm tiết thứ nhất."
         },
         {
             "id": "q4",
@@ -56,7 +56,7 @@
                 "convenient"
             ],
             "correctAnswer": "transportation",
-            "explanation": "Transportation has primary stress on the fourth syllable."
+            "explanation": "Từ 'transportation' có trọng âm chính rơi vào âm tiết thứ tư."
         },
         {
             "id": "q5",
@@ -70,7 +70,7 @@
                 "baggage claim"
             ],
             "correctAnswer": "baggage claim",
-            "explanation": "We pick up our bags at the baggage claim."
+            "explanation": "Chúng ta nhận hành lý tại khu vực nhận hành lý (baggage claim)."
         },
         {
             "id": "q6",
@@ -84,7 +84,7 @@
                 "the best"
             ],
             "correctAnswer": "better",
-            "explanation": "Comparative form of 'good' is 'better'."
+            "explanation": "Dạng so sánh hơn của tính từ 'good' là 'better' (tốt hơn)."
         },
         {
             "id": "q7",
@@ -98,7 +98,7 @@
                 "more popular / the cheapest"
             ],
             "correctAnswer": "the most popular / cheaper",
-            "explanation": "Superlative 'the most popular' and comparative 'cheaper' fit the sentence perfectly."
+            "explanation": "Dạng so sánh nhất 'the most popular' (phổ biến nhất) và so sánh hơn 'cheaper' (rẻ hơn) là phù hợp nhất trong câu này."
         },
         {
             "id": "q8",
@@ -112,7 +112,7 @@
                 "frequent"
             ],
             "correctAnswer": "frequent",
-            "explanation": "Frequent means happening often (every 15 minutes)."
+            "explanation": "Frequent có nghĩa là thường xuyên (xảy ra cứ mỗi 15 phút)."
         },
         {
             "id": "q9",
@@ -126,7 +126,7 @@
                 "moving system"
             ],
             "correctAnswer": "public transportation",
-            "explanation": "Both buses and trains belong to public transportation."
+            "explanation": "Cả xe buýt và tàu hỏa đều thuộc hệ thống giao thông công cộng (public transportation)."
         },
         {
             "id": "q10",
@@ -140,7 +140,7 @@
                 "new dark blue big"
             ],
             "correctAnswer": "big new dark blue",
-            "explanation": "Order of adjectives: Size (big) -> Age (new) -> Color (dark blue)."
+            "explanation": "Trật tự tính từ: Kích cỡ (big) -> Tuổi/Mới cũ (new) -> Màu sắc (dark blue)."
         },
         {
             "id": "q11",
@@ -154,7 +154,7 @@
                 "theirs"
             ],
             "correctAnswer": "theirs",
-            "explanation": "We use the possessive pronoun 'theirs' instead of 'their suitcase'."
+            "explanation": "Chúng ta dùng đại từ sở hữu 'theirs' (của họ) để thay thế cho cụm danh từ 'their suitcase'."
         },
         {
             "id": "q12",
@@ -168,7 +168,7 @@
                 "check-in"
             ],
             "correctAnswer": "customs",
-            "explanation": "Customs officers check luggage for forbidden items."
+            "explanation": "Nhân viên hải quan (Customs) sẽ kiểm tra hành lý để tìm các vật dụng bị cấm."
         },
         {
             "id": "q13",
@@ -182,7 +182,7 @@
                 "luggage"
             ],
             "correctAnswer": "passport",
-            "explanation": "A passport is the official travel document to enter or leave countries."
+            "explanation": "Hộ chiếu (passport) là giấy tờ du lịch chính thức để nhập cảnh hoặc xuất cảnh khỏi các quốc gia."
         },
         {
             "id": "q14",
@@ -196,7 +196,7 @@
                 "Yes, it’s mine."
             ],
             "correctAnswer": "Yes, it’s mine.",
-            "explanation": "'Mine' is the correct possessive pronoun here."
+            "explanation": "'Mine' (của tôi) là đại từ sở hữu chính xác ở đây."
         },
         {
             "id": "q15",
@@ -210,7 +210,7 @@
                 "You can’t use scissors or knives because they are sharp."
             ],
             "correctAnswer": "You can’t bring any sharp objects on the plane.",
-            "explanation": "This signifies prohibiting sharp objects on flights for safety."
+            "explanation": "Biển báo này biểu thị việc cấm mang các vật sắc nhọn lên chuyến bay vì lý do an toàn."
         },
         {
             "id": "q16",
@@ -224,7 +224,7 @@
                 "The fastest speed you can drive is 65 miles per hour."
             ],
             "correctAnswer": "You can’t drive faster than 70 miles per hour at night.",
-            "explanation": "The sign indicates a nighttime speed limit of 70."
+            "explanation": "Biển báo chỉ định giới hạn tốc độ vào ban đêm (Night) là 70 dặm/giờ."
         },
         {
             "id": "q17",
@@ -347,7 +347,7 @@
                 "No Information"
             ],
             "correctAnswer": "False",
-            "explanation": "The conversation is about traveling around the country on buses and trains."
+            "explanation": "Đoạn hội thoại nói về việc đi lại quanh đất nước bằng xe buýt và tàu hỏa."
         },
         {
             "id": "q29",
@@ -361,7 +361,7 @@
                 "No Information"
             ],
             "correctAnswer": "True",
-            "explanation": "Steve expressly states: 'I’ve had a wonderful time using public transportation to travel around.'"
+            "explanation": "Steve đã nói rõ: 'Tôi đã có một thời gian tuyệt vời khi sử dụng giao thông công cộng để đi du lịch xung quanh'."
         },
         {
             "id": "q30",
@@ -375,7 +375,7 @@
                 "No Information"
             ],
             "correctAnswer": "False",
-            "explanation": "Locals like to use buses because they are cheap, not trains."
+            "explanation": "Người dân địa phương thích sử dụng xe buýt vì chúng rẻ, chứ không phải tàu hỏa."
         },
         {
             "id": "q31",
@@ -389,7 +389,7 @@
                 "No Information"
             ],
             "correctAnswer": "True",
-            "explanation": "Steve mentions trains are usually away from cities, so you get a chance to see farms."
+            "explanation": "Steve đề cập rằng tàu hỏa thường ở xa các thành phố (away from cities), vì vậy bạn có cơ hội nhìn ngắm các trang trại."
         },
         {
             "id": "q32",
@@ -403,7 +403,7 @@
                 "No Information"
             ],
             "correctAnswer": "No Information",
-            "explanation": "They do not talk about food on the train or bus."
+            "explanation": "Họ không nói gì về đồ ăn trên tàu hỏa hay xe buýt."
         },
         {
             "id": "q33",
@@ -469,7 +469,7 @@
                 "the less you carry."
             ],
             "correctAnswer": "the more expensive the ticket is.",
-            "explanation": "Mom said the more luggage you bring, the more expensive the ticket is."
+            "explanation": "Mẹ nhắc nhở rằng bạn mang càng nhiều hành lý, thì vé sẽ càng đắt."
         },
         {
             "id": "q39",
@@ -484,7 +484,7 @@
                 "to purchase food"
             ],
             "correctAnswer": "to get on the airplane",
-            "explanation": "My mom also said not to lose my boarding pass or passport because I’d need them to get on the plane."
+            "explanation": "Mẹ tôi cũng dặn không được làm mất thẻ lên máy bay hoặc hộ chiếu vì tôi sẽ cần chúng để lên máy bay."
         },
         {
             "id": "q40",
@@ -499,7 +499,7 @@
                 "the baggage claim"
             ],
             "correctAnswer": "the baggage claim",
-            "explanation": "Finally, she told me I needed to find the baggage claim after the airplane landed to pick up my suitcases."
+            "explanation": "Cuối cùng, mẹ bảo tôi cần phải tìm khu vực nhận hành lý (baggage claim) sau khi máy bay hạ cánh để lấy vali."
         },
         {
             "id": "q41",
@@ -514,7 +514,7 @@
                 "Bringing extra luggage costs more."
             ],
             "correctAnswer": "It makes the experience better.",
-            "explanation": "I’m happy my mom was able to help me know more about air traveling because it made the experience better."
+            "explanation": "Tôi rất vui vì mẹ đã có thể giúp tôi biết nhiều hơn về việc đi lại bằng đường hàng không vì nó đã làm cho trải nghiệm (experience) tốt hơn."
         },
         {
             "id": "q42",
@@ -529,7 +529,7 @@
                 "You can get lost at the airport."
             ],
             "correctAnswer": "There are many things to know about flying on an airplane.",
-            "explanation": "The passage outlines various rules and recommendations before flying."
+            "explanation": "Văn bản nêu ra nhiều quy tắc và đề xuất (nhiều thứ cần biết) trước khi bay trên máy bay."
         },
         {
             "id": "q43",
