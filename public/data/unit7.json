@@ -1,0 +1,615 @@
+{
+    "unit": "Unit 7",
+    "title": "Transportation",
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. s<u>u</u>bway\nB. l<u>u</u>ggage\nC. p<u>u</u>blic\nD. s<u>u</u>pport",
+            "options": [
+                "s<u>u</u>bway",
+                "l<u>u</u>ggage",
+                "p<u>u</u>blic",
+                "s<u>u</u>pport"
+            ],
+            "correctAnswer": "s<u>u</u>pport",
+            "explanation": "The 'u' in support is pronounced differently than in subway, luggage, and public."
+        },
+        {
+            "id": "q2",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. backpack<u>s</u>\nB. ticket<u>s</u>\nC. custom<u>s</u>\nD. passport<u>s</u>",
+            "options": [
+                "backpack<u>s</u>",
+                "ticket<u>s</u>",
+                "custom<u>s</u>",
+                "passport<u>s</u>"
+            ],
+            "correctAnswer": "custom<u>s</u>",
+            "explanation": "The 's' in customs is pronounced as /z/."
+        },
+        {
+            "id": "q3",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word that has a different stressed syllable from the rest:\n A. around\n B. boarding\n C. baggage\n D. local",
+            "options": [
+                "around",
+                "boarding",
+                "baggage",
+                "local"
+            ],
+            "correctAnswer": "around",
+            "explanation": "Around is stressed on the second syllable. The others are stressed on the first."
+        },
+        {
+            "id": "q4",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word that has a different stressed syllable from the rest:\n A. environment\n B. transportation\n C. reliable\n D. convenient",
+            "options": [
+                "environment",
+                "transportation",
+                "reliable",
+                "convenient"
+            ],
+            "correctAnswer": "transportation",
+            "explanation": "Transportation has primary stress on the fourth syllable."
+        },
+        {
+            "id": "q5",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "Make sure you don’t take the wrong bag at the __________.",
+            "options": [
+                "custom",
+                "security",
+                "boarding",
+                "baggage claim"
+            ],
+            "correctAnswer": "baggage claim",
+            "explanation": "We pick up our bags at the baggage claim."
+        },
+        {
+            "id": "q6",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Bicycles are __________ for the environment than cars.",
+            "options": [
+                "better",
+                "more",
+                "as good",
+                "the best"
+            ],
+            "correctAnswer": "better",
+            "explanation": "Comparative form of 'good' is 'better'."
+        },
+        {
+            "id": "q7",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "For commuting in our city, __________ form of transportation is the bus because it’s _________ than going by car or taxi.",
+            "options": [
+                "the most popular / the cheapest",
+                "the most popular / cheaper",
+                "more popular / cheaper",
+                "more popular / the cheapest"
+            ],
+            "correctAnswer": "the most popular / cheaper",
+            "explanation": "Superlative 'the most popular' and comparative 'cheaper' fit the sentence perfectly."
+        },
+        {
+            "id": "q8",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "There are __________ buses from Tân Sơn Nhất airport to the city center. Buses depart every 15 minutes.",
+            "options": [
+                "friendly",
+                "public",
+                "easy",
+                "frequent"
+            ],
+            "correctAnswer": "frequent",
+            "explanation": "Frequent means happening often (every 15 minutes)."
+        },
+        {
+            "id": "q9",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "Korea has excellent __________. The buses are regular and the trains are on time.",
+            "options": [
+                "vehicle",
+                "transport system",
+                "public transportation",
+                "moving system"
+            ],
+            "correctAnswer": "public transportation",
+            "explanation": "Both buses and trains belong to public transportation."
+        },
+        {
+            "id": "q10",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Person A: Is this Andy’s backpack?\nPerson B: No, it isn’t. He has a _________ backpack.",
+            "options": [
+                "new big dark blue",
+                "big new dark blue",
+                "dark blue big new",
+                "new dark blue big"
+            ],
+            "correctAnswer": "big new dark blue",
+            "explanation": "Order of adjectives: Size (big) -> Age (new) -> Color (dark blue)."
+        },
+        {
+            "id": "q11",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Person A: Whose suitcase is this?\nPerson B: It has Jodie and Jack’s names on it, so it must be _________.",
+            "options": [
+                "their",
+                "they",
+                "them",
+                "theirs"
+            ],
+            "correctAnswer": "theirs",
+            "explanation": "We use the possessive pronoun 'theirs' instead of 'their suitcase'."
+        },
+        {
+            "id": "q12",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "Officers will check your luggage when you go through __________.",
+            "options": [
+                "airport",
+                "baggage claim",
+                "customs",
+                "check-in"
+            ],
+            "correctAnswer": "customs",
+            "explanation": "Customs officers check luggage for forbidden items."
+        },
+        {
+            "id": "q13",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "It’s very important to keep your __________ in a safe place. You need this document to enter or leave a foreign country.",
+            "options": [
+                "passport",
+                "boarding pass",
+                "ticket",
+                "luggage"
+            ],
+            "correctAnswer": "passport",
+            "explanation": "A passport is the official travel document to enter or leave countries."
+        },
+        {
+            "id": "q14",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Person A: Excuse me, does this bag belong to you?\nPerson B: _________. Thank you a lot.",
+            "options": [
+                "Yes, it’s my.",
+                "Yes, it’s mine bag.",
+                "Yes, my bag is this.",
+                "Yes, it’s mine."
+            ],
+            "correctAnswer": "Yes, it’s mine.",
+            "explanation": "'Mine' is the correct possessive pronoun here."
+        },
+        {
+            "id": "q15",
+            "type": "multiple-choice",
+            "skill": "Reading Signs",
+            "question": "What does a sign with crossed-out scissors and knives on a plane mean?",
+            "options": [
+                "You can’t use scissors and knives at the same time on the plane.",
+                "You can’t buy any scissors or knives on the plane.",
+                "You can’t bring any sharp objects on the plane.",
+                "You can’t use scissors or knives because they are sharp."
+            ],
+            "correctAnswer": "You can’t bring any sharp objects on the plane.",
+            "explanation": "This signifies prohibiting sharp objects on flights for safety."
+        },
+        {
+            "id": "q16",
+            "type": "multiple-choice",
+            "skill": "Reading Signs",
+            "question": "What does a Speed Limit 65, Night 70 sign mean?",
+            "options": [
+                "You have to drive slower at night than during the day.",
+                "You can’t drive faster than 70 miles per hour at night.",
+                "You have to go at 65 kilometers per hour at night.",
+                "The fastest speed you can drive is 65 miles per hour."
+            ],
+            "correctAnswer": "You can’t drive faster than 70 miles per hour at night.",
+            "explanation": "The sign indicates a nighttime speed limit of 70."
+        },
+        {
+            "id": "q17",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "I think electric cars are more __________ than petrol cars because they don’t produce air pollution. (FRIEND)",
+            "correctAnswers": [
+                "eco-friendly"
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Buses in this country aren’t ___________. They’re often late. (RELY)",
+            "correctAnswers": [
+                "reliable"
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Traveling by train is the best option for long-distance travel. They are clean, __________ and punctual. (COMFORT)",
+            "correctAnswers": [
+                "comfortable"
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "MTR, with ten lines, is the most __________ way of traveling in Hongkong. (CONVENIENCE)",
+            "correctAnswers": [
+                "convenient"
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "I like traveling by motorbike because it’s a great way to get around Hồ Chí Minh city __________. (QUICK)",
+            "correctAnswers": [
+                "quickly"
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "In the UK, there are several __________ kinds of public transportation. (DIFFER)",
+            "correctAnswers": [
+                "different"
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L1.mp3",
+            "transcript": "I take my electric scooter for short trips because I like to drive around the city.",
+            "question": "Private transportation is better for ______ distances.",
+            "correctAnswers": [
+                "short"
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L1.mp3",
+            "transcript": "However, if traveling long distances, I like public transportation.",
+            "question": "Public transportation is better for ______ distances.",
+            "correctAnswers": [
+                "long"
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L1.mp3",
+            "transcript": "I take my electric scooter for short trips",
+            "question": "Example of private transportation: an electric ______.",
+            "correctAnswers": [
+                "scooter"
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L1.mp3",
+            "transcript": "...faster and more eco-friendly transportation like a train.",
+            "question": "Public transportation is more ______.",
+            "correctAnswers": [
+                "eco-friendly"
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L1.mp3",
+            "transcript": "But if you’re traveling a long way, it's better to take public transportation like a bus or train.",
+            "question": "Example of public transportation: a bus or a ______.",
+            "correctAnswers": [
+                "train"
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple-choice",
+            "skill": "Listening (True/False)",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L2.mp3",
+            "question": "Listen to the conversation. TRUE or FALSE? The main topic of the conversation is about two guys traveling around the city.",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "False",
+            "explanation": "The conversation is about traveling around the country on buses and trains."
+        },
+        {
+            "id": "q29",
+            "type": "multiple-choice",
+            "skill": "Listening (True/False)",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L2.mp3",
+            "question": "Steve had a wonderful time using public transportation to get around.",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Steve expressly states: 'I’ve had a wonderful time using public transportation to travel around.'"
+        },
+        {
+            "id": "q30",
+            "type": "multiple-choice",
+            "skill": "Listening (True/False)",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L2.mp3",
+            "question": "Locals like to take the train because it’s cheap.",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "False",
+            "explanation": "Locals like to use buses because they are cheap, not trains."
+        },
+        {
+            "id": "q31",
+            "type": "multiple-choice",
+            "skill": "Listening (True/False)",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L2.mp3",
+            "question": "Trains are usually not near the cities.",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "True",
+            "explanation": "Steve mentions trains are usually away from cities, so you get a chance to see farms."
+        },
+        {
+            "id": "q32",
+            "type": "multiple-choice",
+            "skill": "Listening (True/False)",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 7 Test_L2.mp3",
+            "question": "The food on a train is better than on a bus.",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "No Information",
+            "explanation": "They do not talk about food on the train or bus."
+        },
+        {
+            "id": "q33",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Transportation has changed in many ways over the years. The oldest known form of transportation is the boat. Around 60,000 years ago, boats were made by hollowing out a tree trunk, also known as a canoe. Riders had to use paddles to control the canoe across the water. However, today boats are more convenient because they have an engine that powers them.\n\nNext came horses. Surprisingly it took 55,000 years after the invention of the boat to discover horses as a means of transportation. At first, horses were ridden without a saddle, also called riding bareback. But over time, riders used saddles to make traveling more comfortable and easier to control the horse. After that, it didn’t take long for us to figure out we could use a wagon and a horse to help carry equipment and people.",
+            "question": "This article is about how much ______ has changed over the years.",
+            "correctAnswers": [
+                "transportation"
+            ]
+        },
+        {
+            "id": "q34",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Transportation has changed in many ways over the years. The oldest known form of transportation is the boat. Around 60,000 years ago, boats were made by hollowing out a tree trunk, also known as a canoe. Riders had to use paddles to control the canoe across the water. However, today boats are more convenient because they have an engine that powers them.\n\nNext came horses. Surprisingly it took 55,000 years after the invention of the boat to discover horses as a means of transportation. At first, horses were ridden without a saddle, also called riding bareback. But over time, riders used saddles to make traveling more comfortable and easier to control the horse. After that, it didn’t take long for us to figure out we could use a wagon and a horse to help carry equipment and people.",
+            "question": "Nearly 60,000 years ago, riders had to use a paddle to control the ______ across dangerous waters.",
+            "correctAnswers": [
+                "canoe",
+                "boat"
+            ]
+        },
+        {
+            "id": "q35",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Transportation has changed in many ways over the years. The oldest known form of transportation is the boat. Around 60,000 years ago, boats were made by hollowing out a tree trunk, also known as a canoe. Riders had to use paddles to control the canoe across the water. However, today boats are more convenient because they have an engine that powers them.\n\nNext came horses. Surprisingly it took 55,000 years after the invention of the boat to discover horses as a means of transportation. At first, horses were ridden without a saddle, also called riding bareback. But over time, riders used saddles to make traveling more comfortable and easier to control the horse. After that, it didn’t take long for us to figure out we could use a wagon and a horse to help carry equipment and people.",
+            "question": "Today, boats are more ______ because they have engines.",
+            "correctAnswers": [
+                "convenient"
+            ]
+        },
+        {
+            "id": "q36",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Transportation has changed in many ways over the years. The oldest known form of transportation is the boat. Around 60,000 years ago, boats were made by hollowing out a tree trunk, also known as a canoe. Riders had to use paddles to control the canoe across the water. However, today boats are more convenient because they have an engine that powers them.\n\nNext came horses. Surprisingly it took 55,000 years after the invention of the boat to discover horses as a means of transportation. At first, horses were ridden without a saddle, also called riding bareback. But over time, riders used saddles to make traveling more comfortable and easier to control the horse. After that, it didn’t take long for us to figure out we could use a wagon and a horse to help carry equipment and people.",
+            "question": "Riding a ______ without a saddle is called riding bareback.",
+            "correctAnswers": [
+                "horse"
+            ]
+        },
+        {
+            "id": "q37",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Transportation has changed in many ways over the years. The oldest known form of transportation is the boat. Around 60,000 years ago, boats were made by hollowing out a tree trunk, also known as a canoe. Riders had to use paddles to control the canoe across the water. However, today boats are more convenient because they have an engine that powers them.\n\nNext came horses. Surprisingly it took 55,000 years after the invention of the boat to discover horses as a means of transportation. At first, horses were ridden without a saddle, also called riding bareback. But over time, riders used saddles to make traveling more comfortable and easier to control the horse. After that, it didn’t take long for us to figure out we could use a wagon and a horse to help carry equipment and people.",
+            "question": "People started using saddles to make it more ______ and easier to control the horse.",
+            "correctAnswers": [
+                "comfortable"
+            ]
+        },
+        {
+            "id": "q38",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Last summer, I was planning on taking an airplane for the first time, but there were many things I didn’t know. For example, how many suitcases should I take or what can I bring in my backpack? So, I asked my mom for help, and she told me that the more luggage you bring, the more expensive the ticket is. So, she suggested bringing only the things I needed. She also told me not to take dangerous items like large batteries or sharp objects because I’ll have to go through customs. My mom also said not to lose my boarding pass or passport because I’d need them to get on the plane. Finally, she told me I needed to find the baggage claim after the airplane landed to pick up my suitcases. I’m happy my mom was able to help me know more about air traveling because it made the experience better.",
+            "question": "The more luggage you bring,...",
+            "options": [
+                "the more expensive the ticket is.",
+                "the more it weighs.",
+                "the more trouble you can get in.",
+                "the less you carry."
+            ],
+            "correctAnswer": "the more expensive the ticket is.",
+            "explanation": "Mom said the more luggage you bring, the more expensive the ticket is."
+        },
+        {
+            "id": "q39",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Last summer, I was planning on taking an airplane for the first time, but there were many things I didn’t know. For example, how many suitcases should I take or what can I bring in my backpack? So, I asked my mom for help, and she told me that the more luggage you bring, the more expensive the ticket is. So, she suggested bringing only the things I needed. She also told me not to take dangerous items like large batteries or sharp objects because I’ll have to go through customs. My mom also said not to lose my boarding pass or passport because I’d need them to get on the plane. Finally, she told me I needed to find the baggage claim after the airplane landed to pick up my suitcases. I’m happy my mom was able to help me know more about air traveling because it made the experience better.",
+            "question": "Why do you need a boarding pass and passport?",
+            "options": [
+                "to leave the airport",
+                "to get on the airplane",
+                "to bring your luggage",
+                "to purchase food"
+            ],
+            "correctAnswer": "to get on the airplane",
+            "explanation": "My mom also said not to lose my boarding pass or passport because I’d need them to get on the plane."
+        },
+        {
+            "id": "q40",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Last summer, I was planning on taking an airplane for the first time, but there were many things I didn’t know. For example, how many suitcases should I take or what can I bring in my backpack? So, I asked my mom for help, and she told me that the more luggage you bring, the more expensive the ticket is. So, she suggested bringing only the things I needed. She also told me not to take dangerous items like large batteries or sharp objects because I’ll have to go through customs. My mom also said not to lose my boarding pass or passport because I’d need them to get on the plane. Finally, she told me I needed to find the baggage claim after the airplane landed to pick up my suitcases. I’m happy my mom was able to help me know more about air traveling because it made the experience better.",
+            "question": "Where do you pick up your suitcases after the airplane lands?",
+            "options": [
+                "the ticket counter",
+                "the lounge",
+                "the security office",
+                "the baggage claim"
+            ],
+            "correctAnswer": "the baggage claim",
+            "explanation": "Finally, she told me I needed to find the baggage claim after the airplane landed to pick up my suitcases."
+        },
+        {
+            "id": "q41",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Last summer, I was planning on taking an airplane for the first time, but there were many things I didn’t know. For example, how many suitcases should I take or what can I bring in my backpack? So, I asked my mom for help, and she told me that the more luggage you bring, the more expensive the ticket is. So, she suggested bringing only the things I needed. She also told me not to take dangerous items like large batteries or sharp objects because I’ll have to go through customs. My mom also said not to lose my boarding pass or passport because I’d need them to get on the plane. Finally, she told me I needed to find the baggage claim after the airplane landed to pick up my suitcases. I’m happy my mom was able to help me know more about air traveling because it made the experience better.",
+            "question": "Why is it important to know how to travel on an airplane?",
+            "options": [
+                "The ticket is expensive.",
+                "It makes the experience better.",
+                "Taking an airplane is faster.",
+                "Bringing extra luggage costs more."
+            ],
+            "correctAnswer": "It makes the experience better.",
+            "explanation": "I’m happy my mom was able to help me know more about air traveling because it made the experience better."
+        },
+        {
+            "id": "q42",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Last summer, I was planning on taking an airplane for the first time, but there were many things I didn’t know. For example, how many suitcases should I take or what can I bring in my backpack? So, I asked my mom for help, and she told me that the more luggage you bring, the more expensive the ticket is. So, she suggested bringing only the things I needed. She also told me not to take dangerous items like large batteries or sharp objects because I’ll have to go through customs. My mom also said not to lose my boarding pass or passport because I’d need them to get on the plane. Finally, she told me I needed to find the baggage claim after the airplane landed to pick up my suitcases. I’m happy my mom was able to help me know more about air traveling because it made the experience better.",
+            "question": "What is true about the story?",
+            "options": [
+                "It’s important to use the seatbelt.",
+                "There are many places to eat at the airport.",
+                "There are many things to know about flying on an airplane.",
+                "You can get lost at the airport."
+            ],
+            "correctAnswer": "There are many things to know about flying on an airplane.",
+            "explanation": "The passage outlines various rules and recommendations before flying."
+        },
+        {
+            "id": "q43",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite using FAST: During the rush hours in New York, cycling to work and going by bus take the same amount of time.",
+            "correctAnswers": [
+                "During the rush hours in New York, cycling to work is as fast as going by bus.",
+                "cycling to work is as fast as going by bus"
+            ]
+        },
+        {
+            "id": "q44",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite using CHEAPER: An underground train across London costs £6 while a taxi costs £15.",
+            "correctAnswers": [
+                "An underground train across London is cheaper than a taxi.",
+                "Traveling across London by underground train is cheaper than traveling by taxi."
+            ]
+        },
+        {
+            "id": "q45",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite: Heathrow Airport is currently busier than any other airports in the UK.\nHeathrow Airport is currently the...",
+            "correctAnswers": [
+                "Heathrow Airport is currently the busiest airport in the UK.",
+                "busiest airport in the uk"
+            ]
+        },
+        {
+            "id": "q46",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite: No one else in my family drives better than my father.\nMy father is...",
+            "correctAnswers": [
+                "My father is the best driver in my family.",
+                "the best driver in my family"
+            ]
+        },
+        {
+            "id": "q47",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: I / think / travel / bus / be / relaxing / than / car.",
+            "correctAnswers": [
+                "I think traveling by bus is more relaxing than traveling by car.",
+                "I think traveling by bus is more relaxing than by car."
+            ]
+        },
+        {
+            "id": "q48",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: This / be / not / my mother / handbag / because / hers / be / brown.",
+            "correctAnswers": [
+                "This is not my mother's handbag because hers is brown.",
+                "This isn't my mother's handbag because hers is brown."
+            ]
+        },
+        {
+            "id": "q49",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: Subway / be / popular / means of transportation / New York.",
+            "correctAnswers": [
+                "Subway is the most popular means of transportation in New York.",
+                "Subway is a popular means of transportation in New York."
+            ]
+        },
+        {
+            "id": "q50",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: I / prefer / ride my bike / school / because / it / healthy / take the bus.",
+            "correctAnswers": [
+                "I prefer riding my bike to school because it's healthier than taking the bus.",
+                "I prefer riding my bike to school because it is healthier than taking the bus."
+            ]
+        }
+    ]
+}
