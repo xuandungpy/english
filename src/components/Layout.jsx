@@ -78,8 +78,8 @@ const Layout = ({ children, questions = [], currentIndex = 0, onSelectQuestion }
                     </div>
                 </header>
 
-                <div className="flex-1 overflow-y-auto w-full p-4 md:p-8 flex items-center justify-center relative bg-slate-50/50">
-                    <div className="w-full max-w-4xl pb-24">
+                <div className="flex-1 overflow-y-auto w-full p-4 md:p-8 flex items-start justify-center relative bg-slate-50/50">
+                    <div className="w-full max-w-4xl pb-24 mt-4 md:mt-8">
                         {children}
                     </div>
                 </div>
