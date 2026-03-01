@@ -1,0 +1,610 @@
+{
+    "unit": "Unit 6",
+    "title": "Education",
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. before\nB. report\nC. homework\nD. uniform",
+            "options": [
+                "before",
+                "report",
+                "homework",
+                "uniform"
+            ],
+            "correctAnswer": "homework",
+            "explanation": "The 'or' in homework sounds different than in before, report, and uniform."
+        },
+        {
+            "id": "q2",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. excited\nB. annoyed\nC. pleased\nD. surprised",
+            "options": [
+                "excited",
+                "annoyed",
+                "pleased",
+                "surprised"
+            ],
+            "correctAnswer": "excited",
+            "explanation": "The 'ed' in excited is pronounced /ɪd/."
+        },
+        {
+            "id": "q3",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word that has a different stressed syllable from the rest:\nA. classmate\nB. finish\nC. essay\nD. abroad",
+            "options": [
+                "classmate",
+                "finish",
+                "essay",
+                "abroad"
+            ],
+            "correctAnswer": "abroad",
+            "explanation": "Abroad has primary stress on the second syllable."
+        },
+        {
+            "id": "q4",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word that has a different stressed syllable from the rest:\nA. difficult\nB. however\nC. positive\nD. chemistry",
+            "options": [
+                "difficult",
+                "however",
+                "positive",
+                "chemistry"
+            ],
+            "correctAnswer": "however",
+            "explanation": "However has primary stress on the second syllable."
+        },
+        {
+            "id": "q5",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "Sammy studied really hard, so she __________ all of her tests.",
+            "options": [
+                "passed",
+                "failed",
+                "got",
+                "did"
+            ],
+            "correctAnswer": "passed",
+            "explanation": "Because she studied hard, she passed her tests."
+        },
+        {
+            "id": "q6",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Student A: How’s the course going?\nStudent B: I’m __________ enjoying it.",
+            "options": [
+                "very",
+                "much",
+                "really",
+                "a lot"
+            ],
+            "correctAnswer": "really",
+            "explanation": "'Really' is used to emphasize verbs like enjoy."
+        },
+        {
+            "id": "q7",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "Ivy was so __________ because she failed two tests last semester.",
+            "options": [
+                "pleased",
+                "delighted",
+                "relaxed",
+                "upset"
+            ],
+            "correctAnswer": "upset",
+            "explanation": "Failing tests makes a student upset."
+        },
+        {
+            "id": "q8",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "We __________ buy lunch in the canteen. There’s a shop next to the school and it sells sandwiches and other snacks.",
+            "options": [
+                "have to",
+                "don't have to",
+                "mustn't",
+                "should"
+            ],
+            "correctAnswer": "don't have to",
+            "explanation": "It indicates a lack of necessity to buy lunch in the canteen because there's an alternative."
+        },
+        {
+            "id": "q9",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "The teacher asked us to choose a book from the list, read it at home and then write a __________ about it.",
+            "options": [
+                "project",
+                "presentation",
+                "report",
+                "revision"
+            ],
+            "correctAnswer": "report",
+            "explanation": "You write a report about a book you've read."
+        },
+        {
+            "id": "q10",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "Our math teacher, Mr. Thomas, is funny and friendly, but he gives us too much __________ to do after school.",
+            "options": [
+                "homework",
+                "exams",
+                "essays",
+                "exercise"
+            ],
+            "correctAnswer": "homework",
+            "explanation": "Tasks to do after school are called homework."
+        },
+        {
+            "id": "q11",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Nick got 100% on his physics test. His twin brother, Adam, ______, had to retake the test.",
+            "options": [
+                "although",
+                "but",
+                "so",
+                "however"
+            ],
+            "correctAnswer": "however",
+            "explanation": "However is used as an interjection to contrast Nick's success with Adam's failure."
+        },
+        {
+            "id": "q12",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "I’m really __________ with Nick. We have an important biology project, but he doesn’t do his part.",
+            "options": [
+                "hopeful",
+                "annoyed",
+                "pleased",
+                "excited"
+            ],
+            "correctAnswer": "annoyed",
+            "explanation": "You feel annoyed when your partner doesn't do their part in a project."
+        },
+        {
+            "id": "q13",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "Yesterday, I wrote a(n) __________ about the benefits of studying overseas, and the teacher said it was good.",
+            "options": [
+                "homework",
+                "test",
+                "essay",
+                "paper"
+            ],
+            "correctAnswer": "essay",
+            "explanation": "You typically write an essay about a specific topic such as 'benefits of studying overseas'."
+        },
+        {
+            "id": "q14",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Student A: I’m going to the movies this evening. Do you want to join me?\nStudent B: _________. I have too much homework to do.",
+            "options": [
+                "Sure, I can.",
+                "Thanks, but I don’t think I can.",
+                "Of course, I will.",
+                "Thanks, but sorry, I’m not."
+            ],
+            "correctAnswer": "Thanks, but I don’t think I can.",
+            "explanation": "This is a polite way to decline an invitation."
+        },
+        {
+            "id": "q15",
+            "type": "reading-signs",
+            "skill": "Reading Signs",
+            "question": "Read the notice and choose the correct statement.",
+            "options": [
+                "You have to wear gloves when you enter this place.",
+                "You don’t have to wear gloves in this place.",
+                "It’s a good idea to wear gloves in this place.",
+                "You need to bring gloves to this area."
+            ],
+            "correctAnswer": "You have to wear gloves when you enter this place.",
+            "explanation": "Usually applied for lab safety procedures."
+        },
+        {
+            "id": "q16",
+            "type": "reading-signs",
+            "skill": "Reading Signs",
+            "question": "What does this sign mean?",
+            "options": [
+                "You don’t have to talk in this area.",
+                "You have to keep silent in this area.",
+                "You have to take the exam in this area.",
+                "You don’t have to make any noise during the exam."
+            ],
+            "correctAnswer": "You have to keep silent in this area.",
+            "explanation": "Silent signs indicate obligation to remain quiet."
+        },
+        {
+            "id": "q17",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "I was so __________ because I got an A plus on my English test. (SURPRISE)",
+            "correctAnswers": [
+                "surprised"
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "In my English class, we have to give ___________ about various topics. (PRESENT)",
+            "correctAnswers": [
+                "presentations"
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Philip was really __________ when he got a D on his math test. He studied very hard for it. (DISAPPOINT)",
+            "correctAnswers": [
+                "disappointed"
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Studying abroad puts you into an unfamiliar situation, so you will become more __________. (DEPEND)",
+            "correctAnswers": [
+                "independent"
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Studying overseas also gives you the opportunity to make friends with people from __________ backgrounds. (DIFFER)",
+            "correctAnswers": [
+                "different"
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "When I first came to the USA, I was __________ and lonely because I couldn’t understand what other people said. (SCARY)",
+            "correctAnswers": [
+                "scared"
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L1.mp3",
+            "transcript": "Tom: My trip was amazing, although I really missed my friends and family.",
+            "question": "Tom’s trip was amazing, although he (23)____ missed his friends and family.",
+            "correctAnswers": [
+                "really"
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L1.mp3",
+            "transcript": "Tom: I was surprised at how welcoming everyone was to me.",
+            "question": "The thing that (24)____ him was how welcoming everyone was.",
+            "correctAnswers": [
+                "surprised"
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L1.mp3",
+            "transcript": "Alex: I’m pleased to hear that.",
+            "question": "His friend Alex was (25)____ to hear Tom didn’t have trouble making friends.",
+            "correctAnswers": [
+                "pleased"
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L1.mp3",
+            "transcript": "Tom: The food was so delicious! Everything there tasted hot and spicy.",
+            "question": "Tom thought the food was (26)____ delicious because it tasted hot and spicy...",
+            "correctAnswers": [
+                "so"
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L1.mp3",
+            "transcript": "Alex: How was taking a test in a foreign language?",
+            "question": "...and he found it hard to take a (27)____ in a foreign language.",
+            "correctAnswers": [
+                "test"
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L2.mp3",
+            "question": "How many years did Ms. Sullivan spend teaching abroad?",
+            "options": [
+                "one",
+                "two",
+                "four",
+                "six"
+            ],
+            "correctAnswer": "four",
+            "explanation": "Ms. Sullivan mentions spending four years abroad teaching in Asia."
+        },
+        {
+            "id": "q29",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L2.mp3",
+            "question": "What can an online exchange provider do?",
+            "options": [
+                "help make travel arrangements",
+                "call your parents",
+                "drive you to the airport",
+                "cook you food"
+            ],
+            "correctAnswer": "help make travel arrangements",
+            "explanation": "They can help you make travel arrangements."
+        },
+        {
+            "id": "q30",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L2.mp3",
+            "question": "Why should Simon start saving money?",
+            "options": [
+                "to buy a plane ticket",
+                "in case something happens",
+                "to be prepared",
+                "in case it rains"
+            ],
+            "correctAnswer": "in case something happens",
+            "explanation": "He should start saving money just in case something happens."
+        },
+        {
+            "id": "q31",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L2.mp3",
+            "question": "Why would Simon’s mom be pleased with him?",
+            "options": [
+                "because he cleaned his room",
+                "because he talked with his teacher",
+                "because he saved money",
+                "because he passed his test"
+            ],
+            "correctAnswer": "because he saved money",
+            "explanation": "His mom would be so pleased to learn he is saving money."
+        },
+        {
+            "id": "q32",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW - Unit 6 Test_L2.mp3",
+            "question": "What is true about the conversation?",
+            "options": [
+                "Ms. Sullivan traveled to Europe.",
+                "Simon’s mom was pleased he passed his test.",
+                "Simon doesn’t need to save money.",
+                "Simon needs advice about studying abroad."
+            ],
+            "correctAnswer": "Simon needs advice about studying abroad.",
+            "explanation": "Simon approached Ms. Sullivan for advice about studying abroad next year."
+        },
+        {
+            "id": "q33",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Studying abroad is becoming popular for many students looking to learn more about other languages and countries. Sometimes, students (33)__________ work with an online exchange organization to make travel arrangements and make sure they have a wonderful and safe experience while away. Studying abroad is also a (34)__________ way to meet new friends, visit new places, and experience different things. Students are (35)__________ to learn about new opportunities and meet people from other cultures. (36)_________ learning in a foreign country can be difficult, they are pleased when they (37)__________ their first test, complete their first project, or meet amazing new people.",
+            "question": "(33) A. have   B. have to   C. to have   D. has to",
+            "correctAnswers": [
+                "have to"
+            ]
+        },
+        {
+            "id": "q34",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Studying abroad is becoming popular for many students looking to learn more about other languages and countries. Sometimes, students (33)__________ work with an online exchange organization to make travel arrangements and make sure they have a wonderful and safe experience while away. Studying abroad is also a (34)__________ way to meet new friends, visit new places, and experience different things. Students are (35)__________ to learn about new opportunities and meet people from other cultures. (36)_________ learning in a foreign country can be difficult, they are pleased when they (37)__________ their first test, complete their first project, or meet amazing new people.",
+            "question": "(34) A. great   B. terrible   C. pleased   D. surprised",
+            "correctAnswers": [
+                "great"
+            ]
+        },
+        {
+            "id": "q35",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Studying abroad is becoming popular for many students looking to learn more about other languages and countries. Sometimes, students (33)__________ work with an online exchange organization to make travel arrangements and make sure they have a wonderful and safe experience while away. Studying abroad is also a (34)__________ way to meet new friends, visit new places, and experience different things. Students are (35)__________ to learn about new opportunities and meet people from other cultures. (36)_________ learning in a foreign country can be difficult, they are pleased when they (37)__________ their first test, complete their first project, or meet amazing new people.",
+            "question": "(35) A. upset   B. disappointed   C. annoyed   D. delighted",
+            "correctAnswers": [
+                "delighted"
+            ]
+        },
+        {
+            "id": "q36",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Studying abroad is becoming popular for many students looking to learn more about other languages and countries. Sometimes, students (33)__________ work with an online exchange organization to make travel arrangements and make sure they have a wonderful and safe experience while away. Studying abroad is also a (34)__________ way to meet new friends, visit new places, and experience different things. Students are (35)__________ to learn about new opportunities and meet people from other cultures. (36)_________ learning in a foreign country can be difficult, they are pleased when they (37)__________ their first test, complete their first project, or meet amazing new people.",
+            "question": "(36) A. Because   B. Although   C. However   D. So",
+            "correctAnswers": [
+                "Although"
+            ]
+        },
+        {
+            "id": "q37",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "Studying abroad is becoming popular for many students looking to learn more about other languages and countries. Sometimes, students (33)__________ work with an online exchange organization to make travel arrangements and make sure they have a wonderful and safe experience while away. Studying abroad is also a (34)__________ way to meet new friends, visit new places, and experience different things. Students are (35)__________ to learn about new opportunities and meet people from other cultures. (36)_________ learning in a foreign country can be difficult, they are pleased when they (37)__________ their first test, complete their first project, or meet amazing new people.",
+            "question": "(37) A. present   B. fail   C. pass   D. make",
+            "correctAnswers": [
+                "pass"
+            ]
+        },
+        {
+            "id": "q38",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "When Sophie was a little girl, she dreamed about visiting another country. One day, while looking on the internet, she was surprised to learn about a way to travel and study abroad. First, Sophie would have to decide which country to visit. She would also need to learn a foreign language to take tests and write essays. Sophie quickly knew it would take a lot of work to make her dreams come true, so she began working with her parents on making plans.\n\nSophie was so excited about her future that she spent an entire summer working with her dad to save money. She also took French lessons because she always dreamed about traveling to Paris. The following summer, Sophie was accepted into an exchange program and spent a year traveling and studying abroad.",
+            "question": "Sophie made her dreams of traveling abroad come true by working hard. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "True",
+            "explanation": "It mentions she knew it would take a lot of work, and she did it."
+        },
+        {
+            "id": "q39",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "When Sophie was a little girl, she dreamed about visiting another country. One day, while looking on the internet, she was surprised to learn about a way to travel and study abroad. First, Sophie would have to decide which country to visit. She would also need to learn a foreign language to take tests and write essays. Sophie quickly knew it would take a lot of work to make her dreams come true, so she began working with her parents on making plans.\n\nSophie was so excited about her future that she spent an entire summer working with her dad to save money. She also took French lessons because she always dreamed about traveling to Paris. The following summer, Sophie was accepted into an exchange program and spent a year traveling and studying abroad.",
+            "question": "Sophie didn’t have to learn a foreign language. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "False",
+            "explanation": "She would 'need to learn a foreign language' to take tests, and she took French lessons."
+        },
+        {
+            "id": "q40",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "When Sophie was a little girl, she dreamed about visiting another country. One day, while looking on the internet, she was surprised to learn about a way to travel and study abroad. First, Sophie would have to decide which country to visit. She would also need to learn a foreign language to take tests and write essays. Sophie quickly knew it would take a lot of work to make her dreams come true, so she began working with her parents on making plans.\n\nSophie was so excited about her future that she spent an entire summer working with her dad to save money. She also took French lessons because she always dreamed about traveling to Paris. The following summer, Sophie was accepted into an exchange program and spent a year traveling and studying abroad.",
+            "question": "Sophie planned to take a train to Paris. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "No Information",
+            "explanation": "There is no information about taking a train to Paris in the passage."
+        },
+        {
+            "id": "q41",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "When Sophie was a little girl, she dreamed about visiting another country. One day, while looking on the internet, she was surprised to learn about a way to travel and study abroad. First, Sophie would have to decide which country to visit. She would also need to learn a foreign language to take tests and write essays. Sophie quickly knew it would take a lot of work to make her dreams come true, so she began working with her parents on making plans.\n\nSophie was so excited about her future that she spent an entire summer working with her dad to save money. She also took French lessons because she always dreamed about traveling to Paris. The following summer, Sophie was accepted into an exchange program and spent a year traveling and studying abroad.",
+            "question": "Sophie worked with her dad to save money. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "True",
+            "explanation": "The text states 'she spent an entire summer working with her dad to save money'."
+        },
+        {
+            "id": "q42",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "When Sophie was a little girl, she dreamed about visiting another country. One day, while looking on the internet, she was surprised to learn about a way to travel and study abroad. First, Sophie would have to decide which country to visit. She would also need to learn a foreign language to take tests and write essays. Sophie quickly knew it would take a lot of work to make her dreams come true, so she began working with her parents on making plans.\n\nSophie was so excited about her future that she spent an entire summer working with her dad to save money. She also took French lessons because she always dreamed about traveling to Paris. The following summer, Sophie was accepted into an exchange program and spent a year traveling and studying abroad.",
+            "question": "Sophie spent one whole summer studying abroad. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "False",
+            "explanation": "She spent a whole YEAR traveling and studying abroad, not a summer."
+        },
+        {
+            "id": "q43",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite without modifying meaning: Anna’s mother is from China, but she can’t speak Chinese. (HOWEVER)",
+            "correctAnswers": [
+                "Anna’s mother is from China. However, she can’t speak Chinese.",
+                "Anna’s mother is from China. She, however, can’t speak Chinese."
+            ]
+        },
+        {
+            "id": "q44",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite using Although: Luke wants to study overseas, but he is afraid of living alone.",
+            "correctAnswers": [
+                "Although Luke wants to study overseas, he is afraid of living alone."
+            ]
+        },
+        {
+            "id": "q45",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite: According to the rules, it’s necessary for students to hand in their assignments on time.\nStudents...",
+            "correctAnswers": [
+                "Students have to hand in their assignments on time."
+            ]
+        },
+        {
+            "id": "q46",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite: It isn’t necessary for Cathy to buy new textbooks because she can borrow them from the library.\nCathy...",
+            "correctAnswers": [
+                "Cathy doesn't have to buy new textbooks because she can borrow them from the library.",
+                "Cathy doesn't need to buy new textbooks because she can borrow them from the library."
+            ]
+        },
+        {
+            "id": "q47",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: I / have / be / school / 8:50 / because / first lesson / start / 9:00",
+            "correctAnswers": [
+                "I have to be at school at 8:50 because the first lesson starts at 9:00."
+            ]
+        },
+        {
+            "id": "q48",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: Although / Ann / not like / sports / she / have / play / basketball / P.E. lessons.",
+            "correctAnswers": [
+                "Although Ann doesn't like sports, she has to play basketball in P.E. lessons."
+            ]
+        },
+        {
+            "id": "q49",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: I / pass / all / exams / so / parents / be / so / delighted.",
+            "correctAnswers": [
+                "I passed all my exams, so my parents were so delighted.",
+                "I passed all of my exams, so my parents were so delighted.",
+                "I passed all exams, so my parents were so delighted."
+            ]
+        },
+        {
+            "id": "q50",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: Tom / play / computer games / right now / although / he / have / important test / tomorrow morning.",
+            "correctAnswers": [
+                "Tom is playing computer games right now although he has an important test tomorrow morning."
+            ]
+        }
+    ]
+}

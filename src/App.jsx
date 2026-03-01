@@ -7,28 +7,32 @@ import WritingComponent from './components/WritingComponent';
 import WritingShortComponent from './components/WritingShortComponent';
 import ReadingBlankComponent from './components/ReadingBlankComponent';
 import ReadingMultipleComponent from './components/ReadingMultipleComponent';
-import { Trophy, ChevronLeft, ChevronRight, AlertCircle, CheckCircle } from 'lucide-react';
+import { Trophy, ChevronLeft, ChevronRight, AlertCircle, CheckCircle, BookOpen, GraduationCap } from 'lucide-react';
 
 function App() {
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [finished, setFinished] = useState(false);
 
-  const { score, answers, resetTest } = useStore();
+  const { score, answers, resetTest, testUrl, startTest } = useStore();
 
   useEffect(() => {
-    fetch('/data/unit7.json')
+    if (!testUrl) return;
+    setLoading(true);
+    fetch(testUrl)
       .then((res) => res.json())
       .then((data) => {
         setQuestions(data.questions);
+        setCurrentIndex(0);
+        setFinished(false);
         setLoading(false);
       })
       .catch((err) => {
         console.error("Error loading questions", err);
         setLoading(false);
       });
-  }, []);
+  }, [testUrl]);
 
   const handleNext = () => {
     if (currentIndex < questions.length - 1) {
@@ -54,6 +58,55 @@ function App() {
     setCurrentIndex(0);
     setFinished(false);
   };
+
+  if (!testUrl) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-blend-soft-light">
+        <div className="max-w-4xl w-full text-center mb-12 animate-in slide-in-from-bottom-8 fade-in duration-700">
+          <div className="bg-white p-6 rounded-3xl inline-block mb-6 shadow-sm border-2 border-slate-100">
+            <GraduationCap className="w-16 h-16 text-blue-600" />
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-800 mb-6 drop-shadow-sm">English 7 Practice Tests</h1>
+          <p className="text-xl md:text-2xl text-slate-600 font-medium max-w-2xl mx-auto">Select a test below to start practicing your English skills.</p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl animate-in slide-in-from-bottom-12 fade-in duration-1000 delay-300 fill-mode-both">
+          <button
+            onClick={() => startTest('Unit 6', '/data/unit6.json')}
+            className="bg-white p-8 rounded-3xl border-2 border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-2 transition-all flex flex-col items-center sm:items-start group"
+          >
+            <div className="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform">
+              <BookOpen className="w-8 h-8 text-blue-600" />
+            </div>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Unit 6 Test</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Education</p>
+          </button>
+
+          <button
+            onClick={() => startTest('Unit 7', '/data/unit7.json')}
+            className="bg-white p-8 rounded-3xl border-2 border-slate-200 hover:border-amber-500 hover:shadow-xl hover:-translate-y-2 transition-all flex flex-col items-center sm:items-start group"
+          >
+            <div className="bg-amber-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:-rotate-3 transition-transform">
+              <BookOpen className="w-8 h-8 text-amber-600" />
+            </div>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Unit 7 Test</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Transportation</p>
+          </button>
+
+          <button
+            onClick={() => startTest('Midterm 2', '/data/midterm.json')}
+            className="bg-white p-8 rounded-3xl border-2 border-slate-200 hover:border-green-500 hover:shadow-xl hover:-translate-y-2 transition-all flex flex-col items-center sm:items-start group"
+          >
+            <div className="bg-green-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform">
+              <Trophy className="w-8 h-8 text-green-600" />
+            </div>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Midterm Test</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Semester 2 Review</p>
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
@@ -188,8 +241,8 @@ function App() {
             onClick={handlePrev}
             disabled={currentIndex === 0}
             className={`flex items-center gap-2 px-6 py-3 rounded-xl font-bold transition-all ${currentIndex === 0
-                ? 'text-slate-300 cursor-not-allowed bg-slate-50'
-                : 'text-slate-700 hover:bg-slate-100 border-2 border-slate-200'
+              ? 'text-slate-300 cursor-not-allowed bg-slate-50'
+              : 'text-slate-700 hover:bg-slate-100 border-2 border-slate-200'
               }`}
           >
             <ChevronLeft className="w-5 h-5" /> Back

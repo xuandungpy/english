@@ -4,7 +4,7 @@ import { BookOpen, Trophy, Menu, Map, Star, GraduationCap, Grip } from 'lucide-r
 import clsx from 'clsx';
 
 const Layout = ({ children, questions = [], currentIndex = 0, onSelectQuestion }) => {
-    const { score, currentUnit, answers } = useStore();
+    const { score, currentUnit, answers, quitTest } = useStore();
 
     return (
         <div className="min-h-screen flex flex-col md:flex-row bg-slate-50">
@@ -64,9 +64,12 @@ const Layout = ({ children, questions = [], currentIndex = 0, onSelectQuestion }
                         <button className="md:hidden p-2 text-slate-500 hover:bg-slate-100 rounded-lg">
                             <Menu className="w-6 h-6" />
                         </button>
-                        <div className="flex items-center gap-2">
-                            <Map className="w-5 h-5 text-slate-400 hidden sm:block" />
-                            <h1 className="text-xl font-bold text-slate-800">{currentUnit} - Final Test</h1>
+                        <div className="flex items-center gap-3">
+                            <button onClick={quitTest} className="flex items-center gap-1 text-slate-500 hover:text-blue-600 bg-slate-100 hover:bg-blue-50 px-3 py-1.5 rounded-lg transition-colors font-bold text-sm">
+                                Back to Menu
+                            </button>
+                            <div className="h-6 w-px bg-slate-200 hidden sm:block"></div>
+                            <h1 className="text-xl font-bold text-slate-800 hidden sm:block">{currentUnit} - Final Test</h1>
                         </div>
                     </div>
                     <div className="md:hidden flex items-center gap-2 bg-amber-50 px-3 py-1.5 rounded-lg border border-amber-200">

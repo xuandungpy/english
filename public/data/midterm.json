@@ -1,0 +1,609 @@
+{
+    "unit": "Midterm",
+    "title": "Semester 2 Midterm Test",
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. annoyed\nB. balloon\nC. passport\nD. abroad",
+            "options": [
+                "annoyed",
+                "balloon",
+                "passport",
+                "abroad"
+            ],
+            "correctAnswer": "balloon",
+            "explanation": "Balloon has the /u:/ sound whereas the others contain the /ɔ/ sound."
+        },
+        {
+            "id": "q2",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. buses\nB. bicycles\nC. clothes\nD. rules",
+            "options": [
+                "buses",
+                "bicycles",
+                "clothes",
+                "rules"
+            ],
+            "correctAnswer": "buses",
+            "explanation": "Buses ends with the /ɪz/ sound."
+        },
+        {
+            "id": "q3",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word that has a different stressed syllable from the rest:\nA. suitcase\nB. although\nC. ticket\nD. subway",
+            "options": [
+                "suitcase",
+                "although",
+                "ticket",
+                "subway"
+            ],
+            "correctAnswer": "although",
+            "explanation": "Although has primary stress on the second syllable."
+        },
+        {
+            "id": "q4",
+            "type": "multiple-choice",
+            "skill": "Pronunciation",
+            "question": "Choose the word that has a different stressed syllable from the rest:\nA. decorate\nB. educate\nC. uniform\nD. discover",
+            "options": [
+                "decorate",
+                "educate",
+                "uniform",
+                "discover"
+            ],
+            "correctAnswer": "discover",
+            "explanation": "Discover has primary stress on the second syllable."
+        },
+        {
+            "id": "q5",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "I never take the bus because buses are __________ than any other transport in my town.",
+            "options": [
+                "as slow",
+                "slower",
+                "more slow",
+                "much slow"
+            ],
+            "correctAnswer": "slower",
+            "explanation": "Slower is the comparative form of slow."
+        },
+        {
+            "id": "q6",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "When I go hiking, I often take some food and water in my ________.",
+            "options": [
+                "luggage",
+                "wallet",
+                "suitcase",
+                "backpack"
+            ],
+            "correctAnswer": "backpack",
+            "explanation": "A backpack is typically used for carrying food and water when hiking."
+        },
+        {
+            "id": "q7",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "The teacher was __________ because some students were talking in class and weren’t paying attention to the lesson.",
+            "options": [
+                "pleased",
+                "excited",
+                "annoyed",
+                "delighted"
+            ],
+            "correctAnswer": "annoyed",
+            "explanation": "Teachers get annoyed when students don't pay attention."
+        },
+        {
+            "id": "q8",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "I’m not going out tonight; I have a lot of math __________ to do.",
+            "options": [
+                "homework",
+                "tests",
+                "reports",
+                "essays"
+            ],
+            "correctAnswer": "homework",
+            "explanation": "At home, students typically do homework."
+        },
+        {
+            "id": "q9",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Student A: Where’s Andy? Can you see him?\nStudent B: Over there! He’s the boy with a _________ bag.",
+            "options": [
+                "big light brown new",
+                "big new light brown",
+                "new big light brown",
+                "big light new brown"
+            ],
+            "correctAnswer": "big new light brown",
+            "explanation": "Adjective order: Size -> Age -> Color."
+        },
+        {
+            "id": "q10",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Peter _________ likes his school because he has a lot of friends there and the teachers don’t give him too much homework.",
+            "options": [
+                "so",
+                "much",
+                "really",
+                "a lot"
+            ],
+            "correctAnswer": "really",
+            "explanation": "'Really' is used here to emphasize the verb likes."
+        },
+        {
+            "id": "q11",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Person A: Excuse me, is this suitcase _______?\nPerson B: No, it’s not _________.",
+            "options": [
+                "yours / mine",
+                "your / mine",
+                "your / my",
+                "you / me"
+            ],
+            "correctAnswer": "yours / mine",
+            "explanation": "Both need to be possessive pronouns."
+        },
+        {
+            "id": "q12",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "I think people should cycle more. It’s more __________ because it doesn’t cause air pollution.",
+            "options": [
+                "frequent",
+                "convenient",
+                "useful",
+                "eco-friendly"
+            ],
+            "correctAnswer": "eco-friendly",
+            "explanation": "Not causing air pollution makes cycling eco-friendly."
+        },
+        {
+            "id": "q13",
+            "type": "multiple-choice",
+            "skill": "Vocabulary",
+            "question": "He lost his __________, so he had to contact the embassy. He needs it to fly back to his home country.",
+            "options": [
+                "ticket",
+                "passport",
+                "baggage",
+                "boarding"
+            ],
+            "correctAnswer": "passport",
+            "explanation": "You contact the embassy when you lose your passport in a foreign country."
+        },
+        {
+            "id": "q14",
+            "type": "multiple-choice",
+            "skill": "Grammar",
+            "question": "Student A: Let’s go bowling tonight. There’s a new bowling alley near my house.\nStudent B: _________. I have to finish my book report.",
+            "options": [
+                "I’d love to",
+                "It will be fun",
+                "Sure, thank you",
+                "I’m sorry I can’t"
+            ],
+            "correctAnswer": "I’m sorry I can’t",
+            "explanation": "Because they have homework, they must politely decline."
+        },
+        {
+            "id": "q15",
+            "type": "reading-signs",
+            "skill": "Reading Signs",
+            "question": "What does that sign mean?",
+            "options": [
+                "Be careful! People are watching your step.",
+                "You have to look at the way you step.",
+                "You should be careful when you are walking.",
+                "You have to look at your feet when you are walking."
+            ],
+            "correctAnswer": "You should be careful when you are walking.",
+            "explanation": "This signifies being cautious while walking."
+        },
+        {
+            "id": "q16",
+            "type": "reading-signs",
+            "skill": "Reading Signs",
+            "question": "What does this sign mean?",
+            "options": [
+                "You must drive faster than 15km/h in the school zone.",
+                "Students should be at school from 7 a.m. to 6 p.m.",
+                "The speed limit is not for weekends.",
+                "Students shouldn’t drive on school days."
+            ],
+            "correctAnswer": "The speed limit is not for weekends.",
+            "explanation": "The sign indicates time restrictions, commonly excluding weekends."
+        },
+        {
+            "id": "q17",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Timothy was __________ at the result of his geography test. (DISAPPOINT)",
+            "correctAnswers": [
+                "disappointed"
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Ben came top of the class in all subjects and his parents were so __________. (SURPRISE)",
+            "correctAnswers": [
+                "surprised"
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Traveling around the UK by train is a fast and __________ way to explore the country. (COMFORT)",
+            "correctAnswers": [
+                "comfortable"
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Although I prepared carefully, I got nervous when giving my __________. (PRESENT)",
+            "correctAnswers": [
+                "presentation"
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "Studying abroad makes you more __________ and open to new experiences. (DEPEND)",
+            "correctAnswers": [
+                "independent"
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "writing-short",
+            "skill": "Word Formation",
+            "question": "During the Lazarim Carnival in Portugal, there are singing __________. (COMPETE)",
+            "correctAnswers": [
+                "competitions"
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L1.mp3",
+            "transcript": "Ms. Johnson: Jimmy, I enjoyed your book report on Wanderlove...",
+            "question": "The teacher, Ms. Johnson, enjoyed Jimmy’s (23)____ on a story about a young girl...",
+            "correctAnswers": [
+                "book report"
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L1.mp3",
+            "transcript": "Teacher: The story reminded me of the time I got to study abroad in Brazil.",
+            "question": "The story reminded the teacher about when she got to (24)____ in Brazil.",
+            "correctAnswers": [
+                "study abroad"
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L1.mp3",
+            "transcript": "Teacher: ...you will need to pass a test to get accepted to the school.",
+            "question": "The teacher told Jimmy he would need to (25)____ a test to get accepted to the school.",
+            "correctAnswers": [
+                "pass"
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L1.mp3",
+            "transcript": "Jimmy: That sounds great! My parents will be so delighted to hear this news.",
+            "question": "Jimmy thought his parents would be so (26)____ to hear about this news.",
+            "correctAnswers": [
+                "delighted"
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "listening-blank",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L1.mp3",
+            "transcript": "Teacher: ...remember you will need to study hard and complete all your homework...",
+            "question": "The teacher also told Jimmy to study (27)____ and finish all his homework to get good grades.",
+            "correctAnswers": [
+                "hard"
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L2.mp3",
+            "question": "What is this vlog about?",
+            "options": [
+                "transportation that protects the environment",
+                "transportation that is comfortable",
+                "David’s trip to Japan",
+                "Japan’s public transportation"
+            ],
+            "correctAnswer": "Japan’s public transportation",
+            "explanation": "The vlog primarily talks about Japan's maglev train, a new public transportation."
+        },
+        {
+            "id": "q29",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L2.mp3",
+            "question": "What type of transportation is the maglev?",
+            "options": [
+                "bus",
+                "car",
+                "plane",
+                "train"
+            ],
+            "correctAnswer": "train",
+            "explanation": "It's the new maglev train."
+        },
+        {
+            "id": "q30",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L2.mp3",
+            "question": "Why is the maglev comfortable to ride?",
+            "options": [
+                "It is always on time.",
+                "It feels like riding on air.",
+                "It is near the city.",
+                "It goes fast."
+            ],
+            "correctAnswer": "It feels like riding on air.",
+            "explanation": "David states: 'It feels like riding on air.'"
+        },
+        {
+            "id": "q31",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L2.mp3",
+            "question": "How fast can the maglev train go?",
+            "options": [
+                "400 kilometers per hour",
+                "100 kilometers per hour",
+                "500 kilometers per hour",
+                "300 kilometers per hour"
+            ],
+            "correctAnswer": "500 kilometers per hour",
+            "explanation": "It goes 400 kph FASTER than the 100 kph trains. So 500 kph."
+        },
+        {
+            "id": "q32",
+            "type": "multiple-choice",
+            "skill": "Listening",
+            "audioUrl": "/data/Tiếng Anh 7 ISW_ MidTerm2_L2.mp3",
+            "question": "What makes the maglev reliable?",
+            "options": [
+                "It is always on time.",
+                "It is near the city.",
+                "It goes fast.",
+                "It feels like riding on air."
+            ],
+            "correctAnswer": "It is always on time.",
+            "explanation": "David states the train was always on time."
+        },
+        {
+            "id": "q33",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "This story is about how my (33)______ got lost on vacation. Last summer, I took an airplane to the Bahamas. I heard that airports are not always reliable and sometimes lose luggage. So, I put all my clothes in a (34)______ suitcase that would stand out from the others, and I put my phone and camera in a small backpack to take on the plane. I checked in my suitcase using my boarding pass and got on the plane. When the plane landed, I went to the (35)______ area to pick it up. I waited and waited, but it never came. I went to customs and showed them my (36)______ and asked them about my suitcase, but they had not seen it. I looked everywhere. Luckily, I still had my (37)______ with my phone in it. I was able to use it to call the airline and find my missing suitcase.",
+            "question": "(33) A. boarding pass   B. luggage   C. backpack   D. phone",
+            "correctAnswers": [
+                "luggage"
+            ]
+        },
+        {
+            "id": "q34",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "This story is about how my (33)______ got lost on vacation. Last summer, I took an airplane to the Bahamas. I heard that airports are not always reliable and sometimes lose luggage. So, I put all my clothes in a (34)______ suitcase that would stand out from the others, and I put my phone and camera in a small backpack to take on the plane. I checked in my suitcase using my boarding pass and got on the plane. When the plane landed, I went to the (35)______ area to pick it up. I waited and waited, but it never came. I went to customs and showed them my (36)______ and asked them about my suitcase, but they had not seen it. I looked everywhere. Luckily, I still had my (37)______ with my phone in it. I was able to use it to call the airline and find my missing suitcase.",
+            "question": "(34) A. old pink large   B. large pink old   C. pink large old   D. large old pink",
+            "correctAnswers": [
+                "large old pink"
+            ]
+        },
+        {
+            "id": "q35",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "This story is about how my (33)______ got lost on vacation. Last summer, I took an airplane to the Bahamas. I heard that airports are not always reliable and sometimes lose luggage. So, I put all my clothes in a (34)______ suitcase that would stand out from the others, and I put my phone and camera in a small backpack to take on the plane. I checked in my suitcase using my boarding pass and got on the plane. When the plane landed, I went to the (35)______ area to pick it up. I waited and waited, but it never came. I went to customs and showed them my (36)______ and asked them about my suitcase, but they had not seen it. I looked everywhere. Luckily, I still had my (37)______ with my phone in it. I was able to use it to call the airline and find my missing suitcase.",
+            "question": "(35) A. baggage claim   B. customs   C. ticket counter   D. airport",
+            "correctAnswers": [
+                "baggage claim"
+            ]
+        },
+        {
+            "id": "q36",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "This story is about how my (33)______ got lost on vacation. Last summer, I took an airplane to the Bahamas. I heard that airports are not always reliable and sometimes lose luggage. So, I put all my clothes in a (34)______ suitcase that would stand out from the others, and I put my phone and camera in a small backpack to take on the plane. I checked in my suitcase using my boarding pass and got on the plane. When the plane landed, I went to the (35)______ area to pick it up. I waited and waited, but it never came. I went to customs and showed them my (36)______ and asked them about my suitcase, but they had not seen it. I looked everywhere. Luckily, I still had my (37)______ with my phone in it. I was able to use it to call the airline and find my missing suitcase.",
+            "question": "(36) A. phone   B. passport   C. camera   D. ticket",
+            "correctAnswers": [
+                "passport"
+            ]
+        },
+        {
+            "id": "q37",
+            "type": "reading-blank",
+            "skill": "Reading",
+            "passage": "This story is about how my (33)______ got lost on vacation. Last summer, I took an airplane to the Bahamas. I heard that airports are not always reliable and sometimes lose luggage. So, I put all my clothes in a (34)______ suitcase that would stand out from the others, and I put my phone and camera in a small backpack to take on the plane. I checked in my suitcase using my boarding pass and got on the plane. When the plane landed, I went to the (35)______ area to pick it up. I waited and waited, but it never came. I went to customs and showed them my (36)______ and asked them about my suitcase, but they had not seen it. I looked everywhere. Luckily, I still had my (37)______ with my phone in it. I was able to use it to call the airline and find my missing suitcase.",
+            "question": "(37) A. luggage   B. suitcase   C. backpack   D. wallet",
+            "correctAnswers": [
+                "backpack"
+            ]
+        },
+        {
+            "id": "q38",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Journal Entry 15/07/2020 by Jennifer\nI just returned home from a year of studying abroad in America. It's only been a few days, and I am already missing my new friends. I will have to keep in touch and follow them on social media because they were fun to play with and helped me in school. Sometimes, they would see that I would get really annoyed when I failed my tests, so they started helping me with my homework. I was lucky to have such great friends. Studying abroad was good because it showed me how hard work pays off, although it wasn't always easy. One time, I remember how disappointed my mom was when I told her I did not pass my science test. But, after lots of practice, my English improved, and I started to do better on my tests, which pleased her.",
+            "question": "Jennifer started missing her new friends a year after returning home. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "False",
+            "explanation": "It's only been a few days, not a year."
+        },
+        {
+            "id": "q39",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Journal Entry 15/07/2020 by Jennifer\nI just returned home from a year of studying abroad in America. It's only been a few days, and I am already missing my new friends. I will have to keep in touch and follow them on social media because they were fun to play with and helped me in school. Sometimes, they would see that I would get really annoyed when I failed my tests, so they started helping me with my homework. I was lucky to have such great friends. Studying abroad was good because it showed me how hard work pays off, although it wasn't always easy. One time, I remember how disappointed my mom was when I told her I did not pass my science test. But, after lots of practice, my English improved, and I started to do better on my tests, which pleased her.",
+            "question": "Jennifer was lucky to have great friends who helped her in school. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "True",
+            "explanation": "They helped her with her homework."
+        },
+        {
+            "id": "q40",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Journal Entry 15/07/2020 by Jennifer\nI just returned home from a year of studying abroad in America. It's only been a few days, and I am already missing my new friends. I will have to keep in touch and follow them on social media because they were fun to play with and helped me in school. Sometimes, they would see that I would get really annoyed when I failed my tests, so they started helping me with my homework. I was lucky to have such great friends. Studying abroad was good because it showed me how hard work pays off, although it wasn't always easy. One time, I remember how disappointed my mom was when I told her I did not pass my science test. But, after lots of practice, my English improved, and I started to do better on my tests, which pleased her.",
+            "question": "One way Jennifer improved her English was by watching movies. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "No Information",
+            "explanation": "The text doesn't mention watching movies."
+        },
+        {
+            "id": "q41",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Journal Entry 15/07/2020 by Jennifer\nI just returned home from a year of studying abroad in America. It's only been a few days, and I am already missing my new friends. I will have to keep in touch and follow them on social media because they were fun to play with and helped me in school. Sometimes, they would see that I would get really annoyed when I failed my tests, so they started helping me with my homework. I was lucky to have such great friends. Studying abroad was good because it showed me how hard work pays off, although it wasn't always easy. One time, I remember how disappointed my mom was when I told her I did not pass my science test. But, after lots of practice, my English improved, and I started to do better on my tests, which pleased her.",
+            "question": "Jennifer’s mom was disappointed when she failed her science test. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "True",
+            "explanation": "She remembers how disappointed her mom was."
+        },
+        {
+            "id": "q42",
+            "type": "reading-multiple",
+            "skill": "Reading",
+            "passage": "Journal Entry 15/07/2020 by Jennifer\nI just returned home from a year of studying abroad in America. It's only been a few days, and I am already missing my new friends. I will have to keep in touch and follow them on social media because they were fun to play with and helped me in school. Sometimes, they would see that I would get really annoyed when I failed my tests, so they started helping me with my homework. I was lucky to have such great friends. Studying abroad was good because it showed me how hard work pays off, although it wasn't always easy. One time, I remember how disappointed my mom was when I told her I did not pass my science test. But, after lots of practice, my English improved, and I started to do better on my tests, which pleased her.",
+            "question": "Studying abroad was easy for Jennifer, and she did not need help from her friends. (T/F/NI)",
+            "options": [
+                "True",
+                "False",
+                "No Information"
+            ],
+            "correctAnswer": "False",
+            "explanation": "It wasn't always easy and her friends helped her."
+        },
+        {
+            "id": "q43",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite using DIFFICULT: The English exam wasn’t as easy as I thought.",
+            "correctAnswers": [
+                "The English exam was more difficult than I thought."
+            ]
+        },
+        {
+            "id": "q44",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite using Although: Ivy studied a lot for her biology test. However, she didn’t pass it.",
+            "correctAnswers": [
+                "Although Ivy studied a lot for her biology test, she didn't pass it."
+            ]
+        },
+        {
+            "id": "q45",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite: It’s the rules to remove your shoes and belts when you go through the airport security checkpoint.\nYou have...",
+            "correctAnswers": [
+                "You have to remove your shoes and belts when you go through the airport security checkpoint."
+            ]
+        },
+        {
+            "id": "q46",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Rewrite: It’s not necessary for Laura to take part in the sports day if she doesn’t want to.\nLaura doesn't...",
+            "correctAnswers": [
+                "Laura doesn't have to take part in the sports day if she doesn't want to.",
+                "Laura doesn't need to take part in the sports day if she doesn't want to."
+            ]
+        },
+        {
+            "id": "q47",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: Jack / pleased / because / he / get / A / biology test.",
+            "correctAnswers": [
+                "Jack was pleased because he got an A on the biology test.",
+                "Jack is pleased because he got an A on the biology test."
+            ]
+        },
+        {
+            "id": "q48",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: Trains / be / most popular form / public transport / the United Kingdom.",
+            "correctAnswers": [
+                "Trains are the most popular form of public transport in the United Kingdom."
+            ]
+        },
+        {
+            "id": "q49",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: Riding / bike / fast / go / bus / in rush hours.",
+            "correctAnswers": [
+                "Riding a bike is faster than going by bus in rush hours."
+            ]
+        },
+        {
+            "id": "q50",
+            "type": "writing",
+            "skill": "Sentence Transformation",
+            "question": "Make a sentence: Tommy / not have / as much / homework / his sister.",
+            "correctAnswers": [
+                "Tommy doesn't have as much homework as his sister.",
+                "Tommy doesn't have as much homework as his sister does."
+            ]
+        }
+    ]
+}
