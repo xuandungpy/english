@@ -66,8 +66,8 @@ function App() {
           <div className="bg-white p-6 rounded-3xl inline-block mb-6 shadow-sm border-2 border-slate-100">
             <GraduationCap className="w-16 h-16 text-blue-600" />
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-800 mb-6 drop-shadow-sm">Bài Kiểm Tra Tiếng Anh 7</h1>
-          <p className="text-xl md:text-2xl text-slate-600 font-medium max-w-2xl mx-auto">Vui lòng chọn một bài kiểm tra bên dưới để bắt đầu ôn tập.</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-800 mb-6 drop-shadow-sm">English 7 Practice Tests</h1>
+          <p className="text-xl md:text-2xl text-slate-600 font-medium max-w-2xl mx-auto">Select a test below to start practicing your English skills.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl animate-in slide-in-from-bottom-12 fade-in duration-1000 delay-300 fill-mode-both">
@@ -78,8 +78,8 @@ function App() {
             <div className="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform">
               <BookOpen className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-2">Bài Kiểm Tra Unit 6</h3>
-            <p className="text-slate-500 font-medium text-center sm:text-left">Giáo Dục</p>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Unit 6 Test</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Education</p>
           </button>
 
           <button
@@ -89,8 +89,8 @@ function App() {
             <div className="bg-amber-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:-rotate-3 transition-transform">
               <BookOpen className="w-8 h-8 text-amber-600" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-2">Bài Kiểm Tra Unit 7</h3>
-            <p className="text-slate-500 font-medium text-center sm:text-left">Giao Thông</p>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Unit 7 Test</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Transportation</p>
           </button>
 
           <button
@@ -100,8 +100,8 @@ function App() {
             <div className="bg-green-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform">
               <Trophy className="w-8 h-8 text-green-600" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-2">Bài Giữa Kỳ</h3>
-            <p className="text-slate-500 font-medium text-center sm:text-left">Ôn Tập Học Kỳ 2</p>
+            <h3 className="text-2xl font-bold text-slate-800 mb-2">Midterm Test</h3>
+            <p className="text-slate-500 font-medium text-center sm:text-left">Semester 2 Review</p>
           </button>
         </div>
       </div>
@@ -120,8 +120,12 @@ function App() {
     const totalAnswered = Object.keys(answers).length;
     const correctCount = Object.values(answers).filter(a => a.isCorrect).length;
 
-    // Group missed questions
-    const missedQuestions = questions.filter(q => !answers[q.id]?.isCorrect);
+    // Group missed questions and sort them according to their order in the questions list
+    const missedQuestions = questions
+      .filter(q => !answers[q.id]?.isCorrect)
+      .sort((a, b) => {
+        return questions.findIndex(q => q.id === a.id) - questions.findIndex(q => q.id === b.id);
+      });
 
     return (
       <Layout questions={questions} currentIndex={currentIndex}>
@@ -245,12 +249,12 @@ function App() {
               : 'text-slate-700 hover:bg-slate-100 border-2 border-slate-200'
               }`}
           >
-            <ChevronLeft className="w-5 h-5" /> Lùi
+            <ChevronLeft className="w-5 h-5" /> Back
           </button>
 
           <div className="hidden sm:block">
             <p className="text-sm font-bold text-slate-500">
-              Đã trả lời: <span className="text-blue-600">{answeredCount}</span> / {questions.length}
+              Answered: <span className="text-blue-600">{answeredCount}</span> / {questions.length}
             </p>
           </div>
 
@@ -259,14 +263,14 @@ function App() {
               onClick={handleSubmitTest}
               className="flex items-center gap-2 px-8 py-3 bg-green-500 text-white rounded-xl font-bold hover:bg-green-600 shadow-[0_4px_0_rgb(22,163,74)] active:translate-y-1 active:shadow-none transition-all"
             >
-              Nộp Bài <CheckCircle className="w-5 h-5" />
+              Submit Test <CheckCircle className="w-5 h-5" />
             </button>
           ) : (
             <button
               onClick={handleNext}
               className="flex items-center gap-2 px-8 py-3 bg-blue-500 text-white rounded-xl font-bold hover:bg-blue-600 shadow-[0_4px_0_rgb(37,99,235)] active:translate-y-1 active:shadow-none transition-all"
             >
-              Tới <ChevronRight className="w-5 h-5" />
+              Next <ChevronRight className="w-5 h-5" />
             </button>
           )}
         </div>
