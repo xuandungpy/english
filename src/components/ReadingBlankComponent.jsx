@@ -103,7 +103,7 @@ const ReadingBlankComponent = ({ data }) => {
                                     : "bg-slate-300 cursor-not-allowed"
                             )}
                         >
-                            Check Answer
+                            Kiểm Tra Đáp Án
                         </button>
                     </div>
                 )}

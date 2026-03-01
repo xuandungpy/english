@@ -120,12 +120,8 @@ function App() {
     const totalAnswered = Object.keys(answers).length;
     const correctCount = Object.values(answers).filter(a => a.isCorrect).length;
 
-    // Group missed questions and sort them according to their order in the questions list
-    const missedQuestions = questions
-      .filter(q => !answers[q.id]?.isCorrect)
-      .sort((a, b) => {
-        return questions.findIndex(q => q.id === a.id) - questions.findIndex(q => q.id === b.id);
-      });
+    // Show all questions in the review section as requested
+    const reviewQuestions = questions;
 
     return (
       <Layout questions={questions} currentIndex={currentIndex}>
@@ -152,23 +148,24 @@ function App() {
             </div>
           </div>
 
-          {missedQuestions.length > 0 && (
+          {reviewQuestions.length > 0 && (
             <div className="mt-12 w-full max-w-3xl mx-auto text-left">
               <h3 className="text-2xl font-bold border-b-2 border-slate-200 pb-4 mb-6 flex items-center gap-2 text-slate-800">
-                <AlertCircle className="text-red-500 w-6 h-6" /> Xem Lại Các Câu Hỏi Chưa Đúng
+                <AlertCircle className="text-blue-500 w-6 h-6" /> Chi Tiết Bài Làm
               </h3>
               <div className="space-y-6">
-                {missedQuestions.map((q, idx) => {
+                {reviewQuestions.map((q, idx) => {
                   const userAnswer = answers[q.id]?.userAnswer;
                   const correctAns = q.correctAnswer || (q.correctAnswers && q.correctAnswers[0]);
+                  const qNum = idx + 1; // 1-indexed for display
 
                   return (
-                    <div key={q.id} className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                    <div key={q.id} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 relative">
                       <div className="flex gap-3 mb-3 items-start">
                         <span className="bg-slate-200 text-slate-700 px-3 py-1 rounded-lg font-bold text-sm shrink-0 mt-0.5">
                           {q.skill}
                         </span>
-                        <p className="text-lg font-medium text-slate-800" dangerouslySetInnerHTML={{ __html: q.question }}></p>
+                        <p className="text-lg font-medium text-slate-800"><strong className="text-blue-700">Câu {qNum}:</strong> <span dangerouslySetInnerHTML={{ __html: q.question }}></span></p>
                       </div>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                         <div className="bg-red-50 p-4 rounded-xl border border-red-100">
