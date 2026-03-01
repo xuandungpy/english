@@ -131,19 +131,19 @@ function App() {
               <Trophy className="w-20 h-20 text-amber-500 mx-auto" />
               <div className="absolute -top-2 -right-2 text-4xl">✨</div>
             </div>
-            <h2 className="text-4xl font-extrabold text-slate-800 mb-4">Test Report</h2>
+            <h2 className="text-4xl font-extrabold text-slate-800 mb-4">Kết Quả Bài Làm</h2>
             <p className="text-xl text-slate-600 max-w-md mx-auto">
-              You answered <span className="font-bold text-blue-600">{totalAnswered}</span> out of <span className="font-bold">{questions.length}</span> questions.
+              Bạn đã trả lời <span className="font-bold text-blue-600">{totalAnswered}</span> trên tổng số <span className="font-bold">{questions.length}</span> câu hỏi.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center w-full max-w-2xl mx-auto mb-12">
             <div className="bg-blue-50 px-8 py-6 rounded-2xl flex-1 text-center border-2 border-blue-100">
-              <p className="text-blue-600 font-bold mb-2 uppercase tracking-widest text-sm">Correct</p>
+              <p className="text-blue-600 font-bold mb-2 uppercase tracking-widest text-sm">Số Câu Đúng</p>
               <p className="text-5xl font-black text-blue-700">{correctCount} <span className="text-2xl text-blue-400">/ {questions.length}</span></p>
             </div>
             <div className="bg-amber-50 px-8 py-6 rounded-2xl flex-1 text-center border-2 border-amber-100">
-              <p className="text-amber-600 font-bold mb-2 uppercase tracking-widest text-sm">Total Score</p>
+              <p className="text-amber-600 font-bold mb-2 uppercase tracking-widest text-sm">Tổng Điểm</p>
               <p className="text-5xl font-black text-amber-700">{score}</p>
             </div>
           </div>
@@ -151,7 +151,7 @@ function App() {
           {missedQuestions.length > 0 && (
             <div className="mt-12 w-full max-w-3xl mx-auto text-left">
               <h3 className="text-2xl font-bold border-b-2 border-slate-200 pb-4 mb-6 flex items-center gap-2 text-slate-800">
-                <AlertCircle className="text-red-500 w-6 h-6" /> Questions to Review
+                <AlertCircle className="text-red-500 w-6 h-6" /> Xem Lại Các Câu Hỏi Chưa Đúng
               </h3>
               <div className="space-y-6">
                 {missedQuestions.map((q, idx) => {
@@ -168,17 +168,17 @@ function App() {
                       </div>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                         <div className="bg-red-50 p-4 rounded-xl border border-red-100">
-                          <p className="text-xs font-bold text-red-800 uppercase tracking-wider mb-1">Your Answer:</p>
-                          <p className="text-red-700 line-through font-medium" dangerouslySetInnerHTML={{ __html: userAnswer || "No answer provided" }} />
+                          <p className="text-xs font-bold text-red-800 uppercase tracking-wider mb-1">Câu trả lời của bạn:</p>
+                          <p className="text-red-700 line-through font-medium" dangerouslySetInnerHTML={{ __html: userAnswer || "Chưa chọn đáp án" }} />
                         </div>
                         <div className="bg-green-50 p-4 rounded-xl border border-green-100">
-                          <p className="text-xs font-bold text-green-800 uppercase tracking-wider mb-1">Correct Answer:</p>
+                          <p className="text-xs font-bold text-green-800 uppercase tracking-wider mb-1">Đáp án đúng:</p>
                           <p className="text-green-700 font-bold" dangerouslySetInnerHTML={{ __html: correctAns }} />
                         </div>
                       </div>
                       {q.explanation && (
                         <div className="mt-4 p-4 bg-blue-50 text-blue-900 rounded-xl text-sm italic border border-blue-100">
-                          <strong>Explanation:</strong> {q.explanation}
+                          <strong>Giải thích:</strong> {q.explanation}
                         </div>
                       )}
                     </div>
@@ -193,7 +193,7 @@ function App() {
               onClick={restartTest}
               className="px-10 py-4 bg-slate-800 text-white rounded-2xl font-bold text-lg hover:bg-slate-900 shadow-[0_6px_0_rgb(15,23,42)] active:translate-y-1 active:shadow-none transition-all inline-flex items-center gap-2"
             >
-              Restart Practice
+              Làm Lại Bài
             </button>
           </div>
         </div>
@@ -245,12 +245,12 @@ function App() {
               : 'text-slate-700 hover:bg-slate-100 border-2 border-slate-200'
               }`}
           >
-            <ChevronLeft className="w-5 h-5" /> Back
+            <ChevronLeft className="w-5 h-5" /> Lùi
           </button>
 
           <div className="hidden sm:block">
             <p className="text-sm font-bold text-slate-500">
-              Answered: <span className="text-blue-600">{answeredCount}</span> / {questions.length}
+              Đã trả lời: <span className="text-blue-600">{answeredCount}</span> / {questions.length}
             </p>
           </div>
 
@@ -259,14 +259,14 @@ function App() {
               onClick={handleSubmitTest}
               className="flex items-center gap-2 px-8 py-3 bg-green-500 text-white rounded-xl font-bold hover:bg-green-600 shadow-[0_4px_0_rgb(22,163,74)] active:translate-y-1 active:shadow-none transition-all"
             >
-              Submit Test <CheckCircle className="w-5 h-5" />
+              Nộp Bài <CheckCircle className="w-5 h-5" />
             </button>
           ) : (
             <button
               onClick={handleNext}
               className="flex items-center gap-2 px-8 py-3 bg-blue-500 text-white rounded-xl font-bold hover:bg-blue-600 shadow-[0_4px_0_rgb(37,99,235)] active:translate-y-1 active:shadow-none transition-all"
             >
-              Next <ChevronRight className="w-5 h-5" />
+              Tới <ChevronRight className="w-5 h-5" />
             </button>
           )}
         </div>

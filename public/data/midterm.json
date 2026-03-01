@@ -6,29 +6,29 @@
             "id": "q1",
             "type": "multiple-choice",
             "skill": "Pronunciation",
-            "question": "Choose the word whose underlined part is pronounced differently:\nA. annoyed\nB. balloon\nC. passport\nD. abroad",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. ann<u>oy</u>ed\nB. ball<u>oo</u>n\nC. passp<u>or</u>t\nD. abr<u>oa</u>d",
             "options": [
-                "annoyed",
-                "balloon",
-                "passport",
-                "abroad"
+                "ann<u>oy</u>ed",
+                "ball<u>oo</u>n",
+                "passp<u>or</u>t",
+                "abr<u>oa</u>d"
             ],
-            "correctAnswer": "balloon",
-            "explanation": "Balloon has the /u:/ sound whereas the others contain the /ɔ/ sound."
+            "correctAnswer": "ball<u>oo</u>n",
+            "explanation": "Từ 'balloon' có chứa âm /u:/, trong khi các từ còn lại chứa âm /ɔ/ hoặc các âm khác."
         },
         {
             "id": "q2",
             "type": "multiple-choice",
             "skill": "Pronunciation",
-            "question": "Choose the word whose underlined part is pronounced differently:\nA. buses\nB. bicycles\nC. clothes\nD. rules",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. bus<u>es</u>\nB. bicycl<u>es</u>\nC. cloth<u>es</u>\nD. rul<u>es</u>",
             "options": [
-                "buses",
-                "bicycles",
-                "clothes",
-                "rules"
+                "bus<u>es</u>",
+                "bicycl<u>es</u>",
+                "cloth<u>es</u>",
+                "rul<u>es</u>"
             ],
-            "correctAnswer": "buses",
-            "explanation": "Buses ends with the /ɪz/ sound."
+            "correctAnswer": "bus<u>es</u>",
+            "explanation": "Từ 'buses' kết thúc bằng âm /ɪz/, các từ còn lại kết thúc bằng âm /z/."
         },
         {
             "id": "q3",
@@ -42,7 +42,7 @@
                 "subway"
             ],
             "correctAnswer": "although",
-            "explanation": "Although has primary stress on the second syllable."
+            "explanation": "Từ 'although' có trọng âm rơi vào âm tiết thứ hai. Các từ còn lại có trọng âm ở âm tiết thứ nhất."
         },
         {
             "id": "q4",
@@ -56,7 +56,7 @@
                 "discover"
             ],
             "correctAnswer": "discover",
-            "explanation": "Discover has primary stress on the second syllable."
+            "explanation": "Từ 'discover' có trọng âm rơi vào âm tiết thứ hai. Các từ còn lại có trọng âm ở âm tiết thứ nhất."
         },
         {
             "id": "q5",
@@ -70,7 +70,7 @@
                 "much slow"
             ],
             "correctAnswer": "slower",
-            "explanation": "Slower is the comparative form of slow."
+            "explanation": "'Slower' là dạng so sánh hơn của tính từ ngắn 'slow' (chậm hơn)."
         },
         {
             "id": "q6",
@@ -84,7 +84,7 @@
                 "backpack"
             ],
             "correctAnswer": "backpack",
-            "explanation": "A backpack is typically used for carrying food and water when hiking."
+            "explanation": "Ba lô (backpack) thường được sử dụng để đựng thức ăn và nước uống khi đi leo núi (hiking)."
         },
         {
             "id": "q7",
@@ -98,7 +98,7 @@
                 "delighted"
             ],
             "correctAnswer": "annoyed",
-            "explanation": "Teachers get annoyed when students don't pay attention."
+            "explanation": "Giáo viên sẽ cảm thấy bực mình (annoyed) khi học sinh không chú ý nghe giảng."
         },
         {
             "id": "q8",
@@ -112,7 +112,7 @@
                 "essays"
             ],
             "correctAnswer": "homework",
-            "explanation": "At home, students typically do homework."
+            "explanation": "Bài tập làm ở nhà thường được gọi là 'homework' (bài tập về nhà)."
         },
         {
             "id": "q9",
@@ -126,7 +126,7 @@
                 "big light new brown"
             ],
             "correctAnswer": "big new light brown",
-            "explanation": "Adjective order: Size -> Age -> Color."
+            "explanation": "Trật tự tính từ trong tiếng Anh: Kích cỡ (big) -> Tuổi/Mới cũ (new) -> Màu sắc (light brown)."
         },
         {
             "id": "q10",
@@ -140,7 +140,7 @@
                 "a lot"
             ],
             "correctAnswer": "really",
-            "explanation": "'Really' is used here to emphasize the verb likes."
+            "explanation": "Trạng từ 'really' (thực sự) được dùng ở đây để nhấn mạnh động từ 'likes' (thích)."
         },
         {
             "id": "q11",
@@ -154,7 +154,7 @@
                 "you / me"
             ],
             "correctAnswer": "yours / mine",
-            "explanation": "Both need to be possessive pronouns."
+            "explanation": "Cả hai chỗ trống đều cần đại từ sở hữu (yours = của bạn; mine = của tôi) để thay thế cho danh từ 'suitcase'."
         },
         {
             "id": "q12",
@@ -168,7 +168,7 @@
                 "eco-friendly"
             ],
             "correctAnswer": "eco-friendly",
-            "explanation": "Not causing air pollution makes cycling eco-friendly."
+            "explanation": "Đạp xe không gây ô nhiễm không khí nên nó thân thiện với môi trường (eco-friendly)."
         },
         {
             "id": "q13",
@@ -182,7 +182,7 @@
                 "boarding"
             ],
             "correctAnswer": "passport",
-            "explanation": "You contact the embassy when you lose your passport in a foreign country."
+            "explanation": "Bạn cần liên hệ với đại sứ quán khi bị mất hộ chiếu (passport) ở nước ngoài."
         },
         {
             "id": "q14",
@@ -196,7 +196,7 @@
                 "I’m sorry I can’t"
             ],
             "correctAnswer": "I’m sorry I can’t",
-            "explanation": "Because they have homework, they must politely decline."
+            "explanation": "Vì có bài tập về nhà, họ phải từ chối một cách lịch sự: 'I'm sorry I can't' (Mình xin lỗi, mình không đi được)."
         },
         {
             "id": "q15",
@@ -210,7 +210,7 @@
                 "You have to look at your feet when you are walking."
             ],
             "correctAnswer": "You should be careful when you are walking.",
-            "explanation": "This signifies being cautious while walking."
+            "explanation": "Biển báo này cảnh báo bạn nên cẩn thận khi bước đi (chú ý bước chân)."
         },
         {
             "id": "q16",
@@ -224,7 +224,7 @@
                 "Students shouldn’t drive on school days."
             ],
             "correctAnswer": "The speed limit is not for weekends.",
-            "explanation": "The sign indicates time restrictions, commonly excluding weekends."
+            "explanation": "Biển báo chỉ định thời gian áp dụng giới hạn tốc độ (vào các ngày đi học), không áp dụng cho ngày cuối tuần."
         },
         {
             "id": "q17",
@@ -348,7 +348,7 @@
                 "Japan’s public transportation"
             ],
             "correctAnswer": "Japan’s public transportation",
-            "explanation": "The vlog primarily talks about Japan's maglev train, a new public transportation."
+            "explanation": "Vlog này chủ yếu nói về tàu đệm từ (maglev train) của Nhật Bản, một phương tiện giao thông công cộng mới."
         },
         {
             "id": "q29",
@@ -363,7 +363,7 @@
                 "train"
             ],
             "correctAnswer": "train",
-            "explanation": "It's the new maglev train."
+            "explanation": "Đó là loại tàu đệm từ (train) mới."
         },
         {
             "id": "q30",
@@ -378,7 +378,7 @@
                 "It goes fast."
             ],
             "correctAnswer": "It feels like riding on air.",
-            "explanation": "David states: 'It feels like riding on air.'"
+            "explanation": "David nói: 'Cảm giác như đang cưỡi trên không khí' (It feels like riding on air)."
         },
         {
             "id": "q31",
@@ -393,7 +393,7 @@
                 "300 kilometers per hour"
             ],
             "correctAnswer": "500 kilometers per hour",
-            "explanation": "It goes 400 kph FASTER than the 100 kph trains. So 500 kph."
+            "explanation": "Tàu này đi nhanh hơn 400km/h so với các tàu 100km/h hiện tại. Vì vậy vận tốc của nó là 500km/h."
         },
         {
             "id": "q32",
@@ -408,7 +408,7 @@
                 "It feels like riding on air."
             ],
             "correctAnswer": "It is always on time.",
-            "explanation": "David states the train was always on time."
+            "explanation": "David khẳng định rằng tàu luôn luôn đến đúng giờ (always on time)."
         },
         {
             "id": "q33",
@@ -472,7 +472,7 @@
                 "No Information"
             ],
             "correctAnswer": "False",
-            "explanation": "It's only been a few days, not a year."
+            "explanation": "Trong bài viết: 'It's only been a few days' (Mới chỉ vài ngày trôi qua), chứ không phải một năm (a year)."
         },
         {
             "id": "q39",
@@ -486,7 +486,7 @@
                 "No Information"
             ],
             "correctAnswer": "True",
-            "explanation": "They helped her with her homework."
+            "explanation": "Họ đã giúp đỡ cô ấy làm bài tập về nhà."
         },
         {
             "id": "q40",
@@ -500,7 +500,7 @@
                 "No Information"
             ],
             "correctAnswer": "No Information",
-            "explanation": "The text doesn't mention watching movies."
+            "explanation": "Văn bản không đề cập đến việc xem phim."
         },
         {
             "id": "q41",
@@ -514,7 +514,7 @@
                 "No Information"
             ],
             "correctAnswer": "True",
-            "explanation": "She remembers how disappointed her mom was."
+            "explanation": "Cô ấy nhớ lại việc mẹ mình đã thất vọng thế nào (how disappointed her mom was) khi cô ấy trượt bài kiểm tra."
         },
         {
             "id": "q42",
@@ -528,7 +528,7 @@
                 "No Information"
             ],
             "correctAnswer": "False",
-            "explanation": "It wasn't always easy and her friends helped her."
+            "explanation": "Mọi thứ không phải lúc nào cũng dễ dàng, và bạn bè đã giúp đỡ cô ấy rất nhiều."
         },
         {
             "id": "q43",

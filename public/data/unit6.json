@@ -6,29 +6,29 @@
             "id": "q1",
             "type": "multiple-choice",
             "skill": "Pronunciation",
-            "question": "Choose the word whose underlined part is pronounced differently:\nA. before\nB. report\nC. homework\nD. uniform",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. bef<u>or</u>e\nB. rep<u>or</u>t\nC. homew<u>or</u>k\nD. unif<u>or</u>m",
             "options": [
-                "before",
-                "report",
-                "homework",
-                "uniform"
+                "bef<u>or</u>e",
+                "rep<u>or</u>t",
+                "homew<u>or</u>k",
+                "unif<u>or</u>m"
             ],
-            "correctAnswer": "homework",
-            "explanation": "The 'or' in homework sounds different than in before, report, and uniform."
+            "correctAnswer": "homew<u>or</u>k",
+            "explanation": "Âm 'or' trong từ 'homework' được phát âm là /ɜː(r)/, khác với /ɔː(r)/ trong các từ 'before', 'report' và 'uniform'."
         },
         {
             "id": "q2",
             "type": "multiple-choice",
             "skill": "Pronunciation",
-            "question": "Choose the word whose underlined part is pronounced differently:\nA. excited\nB. annoyed\nC. pleased\nD. surprised",
+            "question": "Choose the word whose underlined part is pronounced differently:\nA. excit<u>ed</u>\nB. annoy<u>ed</u>\nC. pleas<u>ed</u>\nD. surpris<u>ed</u>",
             "options": [
-                "excited",
-                "annoyed",
-                "pleased",
-                "surprised"
+                "excit<u>ed</u>",
+                "annoy<u>ed</u>",
+                "pleas<u>ed</u>",
+                "surpris<u>ed</u>"
             ],
-            "correctAnswer": "excited",
-            "explanation": "The 'ed' in excited is pronounced /ɪd/."
+            "correctAnswer": "excit<u>ed</u>",
+            "explanation": "Đuôi 'ed' trong từ 'excited' được phát âm là /ɪd/, trong khi các từ còn lại phát âm là /d/."
         },
         {
             "id": "q3",
@@ -42,7 +42,7 @@
                 "abroad"
             ],
             "correctAnswer": "abroad",
-            "explanation": "Abroad has primary stress on the second syllable."
+            "explanation": "Từ 'abroad' có trọng âm rơi vào âm tiết thứ hai, các từ còn lại có trọng âm ở âm tiết thứ nhất."
         },
         {
             "id": "q4",
@@ -56,7 +56,7 @@
                 "chemistry"
             ],
             "correctAnswer": "however",
-            "explanation": "However has primary stress on the second syllable."
+            "explanation": "Từ 'however' có trọng âm rơi vào âm tiết thứ hai. Các từ còn lại có trọng âm ở âm tiết thứ nhất."
         },
         {
             "id": "q5",
@@ -70,7 +70,7 @@
                 "did"
             ],
             "correctAnswer": "passed",
-            "explanation": "Because she studied hard, she passed her tests."
+            "explanation": "Vì Sammy đã học rất chăm chỉ nên cô ấy thi đậu (passed) tất cả bài kiểm tra."
         },
         {
             "id": "q6",
@@ -84,7 +84,7 @@
                 "a lot"
             ],
             "correctAnswer": "really",
-            "explanation": "'Really' is used to emphasize verbs like enjoy."
+            "explanation": "Trạng từ 'really' được dùng để nhấn mạnh các động từ như 'enjoy' (thực sự thích)."
         },
         {
             "id": "q7",
@@ -98,7 +98,7 @@
                 "upset"
             ],
             "correctAnswer": "upset",
-            "explanation": "Failing tests makes a student upset."
+            "explanation": "Việc trượt bài kiểm tra khiến học sinh cảm thấy buồn bã, thất vọng (upset)."
         },
         {
             "id": "q8",
@@ -112,7 +112,7 @@
                 "should"
             ],
             "correctAnswer": "don't have to",
-            "explanation": "It indicates a lack of necessity to buy lunch in the canteen because there's an alternative."
+            "explanation": "Chỉ sự không cần thiết (không bắt buộc) mua bữa trưa ở căng tin vì đã có cửa hàng bên cạnh trường."
         },
         {
             "id": "q9",
@@ -126,7 +126,7 @@
                 "revision"
             ],
             "correctAnswer": "report",
-            "explanation": "You write a report about a book you've read."
+            "explanation": "Giáo viên yêu cầu đọc sách và sau đó viết báo cáo (report) về nó."
         },
         {
             "id": "q10",
@@ -140,7 +140,7 @@
                 "exercise"
             ],
             "correctAnswer": "homework",
-            "explanation": "Tasks to do after school are called homework."
+            "explanation": "Bài tập làm sau giờ học được gọi là bài tập về nhà (homework)."
         },
         {
             "id": "q11",
@@ -154,7 +154,7 @@
                 "however"
             ],
             "correctAnswer": "however",
-            "explanation": "However is used as an interjection to contrast Nick's success with Adam's failure."
+            "explanation": "Từ 'However' (Tuy nhiên) được dùng ở đầu câu để diễn tả sự đối lập giữa thành công của Nick và thất bại của Adam."
         },
         {
             "id": "q12",
@@ -168,7 +168,7 @@
                 "excited"
             ],
             "correctAnswer": "annoyed",
-            "explanation": "You feel annoyed when your partner doesn't do their part in a project."
+            "explanation": "Bạn sẽ cảm thấy bực mình (annoyed) khi đối tác/bạn cùng nhóm không chịu làm phần việc của họ trong dự án."
         },
         {
             "id": "q13",
@@ -182,7 +182,7 @@
                 "paper"
             ],
             "correctAnswer": "essay",
-            "explanation": "You typically write an essay about a specific topic such as 'benefits of studying overseas'."
+            "explanation": "Học sinh thường viết một bài luận (essay) về một chủ đề cụ thể như 'lợi ích của việc đi du học'."
         },
         {
             "id": "q14",
@@ -196,7 +196,7 @@
                 "Thanks, but sorry, I’m not."
             ],
             "correctAnswer": "Thanks, but I don’t think I can.",
-            "explanation": "This is a polite way to decline an invitation."
+            "explanation": "Đây là cách lịch sự để từ chối lời mời: Cảm ơn nhé, nhưng tớ nghĩ mình không đi được (vì có quá nhiều bài tập)."
         },
         {
             "id": "q15",
@@ -210,7 +210,7 @@
                 "You need to bring gloves to this area."
             ],
             "correctAnswer": "You have to wear gloves when you enter this place.",
-            "explanation": "Usually applied for lab safety procedures."
+            "explanation": "Biển báo quy định: Bạn bắt buộc phải đeo găng tay khi đi vào khu vực này."
         },
         {
             "id": "q16",
@@ -224,7 +224,7 @@
                 "You don’t have to make any noise during the exam."
             ],
             "correctAnswer": "You have to keep silent in this area.",
-            "explanation": "Silent signs indicate obligation to remain quiet."
+            "explanation": "Biển báo im lặng (bật ngón tay lên môi) biểu thị sự bắt buộc phải giữ im lặng trong khu vực này."
         },
         {
             "id": "q17",
@@ -348,7 +348,7 @@
                 "six"
             ],
             "correctAnswer": "four",
-            "explanation": "Ms. Sullivan mentions spending four years abroad teaching in Asia."
+            "explanation": "Trong bài, Ms. Sullivan nói rằng cô đã dành 4 năm (four years) giảng dạy ở Châu Á."
         },
         {
             "id": "q29",
@@ -363,7 +363,7 @@
                 "cook you food"
             ],
             "correctAnswer": "help make travel arrangements",
-            "explanation": "They can help you make travel arrangements."
+            "explanation": "Họ có thể giúp bạn sắp xếp phương tiện di chuyển và chuyến đi (help you make travel arrangements)."
         },
         {
             "id": "q30",
@@ -378,7 +378,7 @@
                 "in case it rains"
             ],
             "correctAnswer": "in case something happens",
-            "explanation": "He should start saving money just in case something happens."
+            "explanation": "Cô giáo khuyên Simon nên bắt đầu tiết kiệm tiền phòng trường hợp có chuyện gì xảy ra (just in case something happens)."
         },
         {
             "id": "q31",
@@ -393,7 +393,7 @@
                 "because he passed his test"
             ],
             "correctAnswer": "because he saved money",
-            "explanation": "His mom would be so pleased to learn he is saving money."
+            "explanation": "Mẹ của Simon sẽ rất vui khi biết cậu ấy đang tiết kiệm tiền (saving money)."
         },
         {
             "id": "q32",
@@ -408,7 +408,7 @@
                 "Simon needs advice about studying abroad."
             ],
             "correctAnswer": "Simon needs advice about studying abroad.",
-            "explanation": "Simon approached Ms. Sullivan for advice about studying abroad next year."
+            "explanation": "Simon gặp cô Sullivan để xin lời khuyên (needs advice) về việc đi du học vào năm tới."
         },
         {
             "id": "q33",
@@ -472,7 +472,7 @@
                 "No Information"
             ],
             "correctAnswer": "True",
-            "explanation": "It mentions she knew it would take a lot of work, and she did it."
+            "explanation": "Văn bản đề cập rằng cô ấy biết sẽ mất nhiều công sức, nhưng cô ấy đã nỗ lực làm được."
         },
         {
             "id": "q39",
@@ -486,7 +486,7 @@
                 "No Information"
             ],
             "correctAnswer": "False",
-            "explanation": "She would 'need to learn a foreign language' to take tests, and she took French lessons."
+            "explanation": "Câu này Sai (False) vì văn bản nói rằng cô ấy 'cần phải học một ngoại ngữ' (need to learn a foreign language) và cô ấy đã học tiếng Pháp."
         },
         {
             "id": "q40",
@@ -500,7 +500,7 @@
                 "No Information"
             ],
             "correctAnswer": "No Information",
-            "explanation": "There is no information about taking a train to Paris in the passage."
+            "explanation": "Không có thông tin (No Information) về việc đi 'xe lửa' (train) đến Paris trong đoạn văn."
         },
         {
             "id": "q41",
@@ -514,7 +514,7 @@
                 "No Information"
             ],
             "correctAnswer": "True",
-            "explanation": "The text states 'she spent an entire summer working with her dad to save money'."
+            "explanation": "Đoạn văn nêu rõ: 'cô ấy đã dành cả mùa hè làm việc cùng bố để tiết kiệm tiền' (working with her dad to save money)."
         },
         {
             "id": "q42",
@@ -528,7 +528,7 @@
                 "No Information"
             ],
             "correctAnswer": "False",
-            "explanation": "She spent a whole YEAR traveling and studying abroad, not a summer."
+            "explanation": "Cô ấy đi du học cả một NĂM (spent a year), chứ không phải một mùa hè (summer)."
         },
         {
             "id": "q43",
